@@ -125,3 +125,18 @@ HackHub
 │
 └── Admin Panel
 ```
+
+# Alcune user stories 
+## Partecipante
+"Come partecipante voglio iscrivermi a un hackathon così da poter prendere parte alla competizione."<br>
+"Come partecipante voglio creare un team così da collaborare con altri utenti."<br>
+"Come partecipante voglio caricare il repository GitHub del progetto così da sottoporlo alla valutazione."
+
+## Mentor
+"Come mentor voglio vedere i team assegnati così da fornire supporto."
+
+## Giudice
+"Come giudice voglio assegnare un punteggio ai progetti così da determinare la classifica finale."
+
+## Organizzatore
+"Come organizzatore voglio monitorare le statistiche dell'evento così da valutare il successo dell'hackathon."
