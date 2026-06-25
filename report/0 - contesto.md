@@ -24,11 +24,11 @@ La community richiede quindi una piattaforma centralizzata in grado di supportar
 |---|---|
 | Diego Colì | CEO - Product Owner
 | Gabriele Arcese | CTO - Project Manager 
-| Daniele Merighi | Full Stack Developer 
-| Marco Costantini| Backend Developer 
+| Daniele Merighi | Backend Developer 
 | Daniel Meco | Frontend Developer 
-| Chiara Giangiulli | UI/UX Designer - QA Tester 
 | Davide Dionisi | Mental Coach - Psychology Supporter 
+| Marco Costantini | Rappresentante - Stakeholder
+| Davide Guidotti | Rappresentante - Stakeholder
 
 ## Scoping meetings
 La fase di scoping ha l'obiettivo di chiarire fin dall'inizio cosa realizzerà il progetto, perchè verrà sviluppato, chi sarà coinvolto, come verrà sviluppato, quali sono i vincoli, i rischi e le opportunità.
