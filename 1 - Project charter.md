@@ -8,6 +8,7 @@ La piattaforma consente di centralizzare l'intero ciclo di vita di un hackathon 
 - Tempi organizzativi.
 - Errori di gestione.
 - Comunicazioni frammentate.
+
 migliorando:
 - Esperienza dei partecipanti.
 - Coordinamento.
