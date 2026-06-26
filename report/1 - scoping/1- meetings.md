@@ -1,11 +1,14 @@
 ## Meetings
 
-La definizione dei requisiti, del perimetro operativo e delle linee guida strategiche di HackVillage è stata strutturata attraverso un ciclo integrato di tre meeting principali. Questa fase ha visto la collaborazione sinergica e attiva del team di sviluppo, del management e dei rappresentanti del committente (HackIT Community).
+La definizione dei requisiti, del perimetro operativo e delle linee guida strategiche di HackVillage è stata strutturata attraverso una serie di tre meeting principali. Questa fase ha visto la collaborazione sinergica e attiva del team di sviluppo, del management e dei rappresentanti del committente (HackIT Community).
 
 L'approccio iterativo e incrementale adottato ha permesso di allineare progressivamente la visione di business alle specifiche tecniche e architetturali, riducendo al minimo le ambiguità e strutturando un percorso di sviluppo chiaro, tracciabile e orientato al rilascio di valore reale per la community.
 
 ### Meeting #1 - Identificazione problema e allineamento strategico
-**Obiettivi**: comprendere il problema di fondo della frammentazione degli strumenti di HackIT Community, allineare il team e gli stakeholder sulla direzione strategica del brand e definire l'identità ad alto livello del progetto HackVillage.
+**Obiettivi**: 
+-comprendere il problema di fondo della frammentazione degli strumenti di HackIT Community.
+-allineare il team e gli stakeholder sulla direzione strategica del brand. 
+-definire l'identità ad alto livello del progetto HackVillage.
 
 **Descrizione**: il Product Owner (Diego Colì) e il Project Manager (Gabriele Arcese) hanno incontrato gli stakeholder (Marco Costantini e Davide Guidotti) e il team per analizzare il contesto attuale. È stata effettuata un'analisi strategica del mercato e del posizionamento dell'idea. Attraverso un brainstorming incentrato sulle aspettative del committente, sono stati delineati i confini generali del successo del progetto e si è stilato il documento quadro che fa da "carta d'identità" all'iniziativa. Un focus speciale è stato dedicato alle dinamiche del team e alla sostenibilità psicologica delle attività lavorative, grazie al contributo del Mental Coach (Davide Dionisi).
 
@@ -25,7 +28,7 @@ L'approccio iterativo e incrementale adottato ha permesso di allineare progressi
 - _Desideri e bisogni_: documentazione dettagliata delle necessità degli utenti, al fine di per comprendere a fondo le priorità dei fruitori della piattaforma (organizzatori, mentor, partecipanti).
 - _RBS (Requirement Breakdown Structure)_: scomposizione gerarchica ad albero di tutti i requisiti del sistema (funzionali e non), che definisce nel dettaglio l'architettura delle funzionalità necessarie.
 
-**Nota**: si è scelto arbitrariamente di effettuare una _SWOT analysis_ prima della definizione di _desideri e bisogni_ per evitare di generare false aspettative nel committente (raccogliendo richieste che poi andrebbero cestinate nel momento in cui si dovessero scontrare con la realtà finanziaria/strategica).
+**Nota**: si è scelto arbitrariamente di effettuare una _SWOT analysis_ prima della definizione di _desideri e bisogni_ per evitare di promettere funzionalità irrealizzabili e scongiurare false aspettative nel committente fin dal primo momento. (richieste che poi andrebbero cestinate nel momento in cui si dovessero scontrare con la realtà finanziaria/strategica).
 
 ### Meeting #3 - Validazione architetturare e avanzamento
 **Obiettivi**: definire l'infrastruttura tecnica e la roadmap di sviluppo, fotografare il posizionamento del progetto nel ciclo di vita dello sviluppo e formalizzare l'accordo finale prima di scrivere il codice.
