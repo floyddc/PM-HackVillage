@@ -18,6 +18,7 @@ L'approccio iterativo e incrementale adottato ha permesso di allineare progressi
 - _POS (Project Overview Statement)_: sintesi esecutiva ufficiale del progetto che racchiude il problema, il macro obiettivo, i vincoli. Include al suo interno:
   - _Market analysis_.
   - _Financial analysis_.
+  - _Risk analysis_.
 
 ### Meeting #2 - Analisi requisiti e scomposizione funzionale
 **Obiettivi**: 
