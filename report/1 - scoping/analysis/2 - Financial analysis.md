@@ -19,7 +19,7 @@ In questa analisi si valuteranno i principali costi da sostenere, i rischi finan
     | Davide Dionisi | Mental Coach - Psychology Supporter | €800 | €2400 | Part-time poche ore a settimana, sessioni mirate nei momenti critici degli sprint
 
   - **Costi esterni**: costi vivi per le licenze di sviluppo, il deployment e l'infrastruttura cloud necessaria per il lancio e il primo anno di esercizio.
-    | Tecnologia | Descrizione | Costo annuo
+    | Tecnologia | Costo annuo | Descrizione
     |---|---|---|
     | Infrastruttura cloud (server+DB) | €600 | Servizi cloud scalabili (AWS) per gestire picchi di traffico  
     | Cloud storage | €100 | Spazio di archiviazione sicuro per submission dei progetti 
@@ -29,6 +29,22 @@ In questa analisi si valuteranno i principali costi da sostenere, i rischi finan
 
     Il costo totale stimato per lo sviluppo dell'MVP e il mantenimento della piattaforma per il primo anno è pari a circa €29.900, rientrando perfettamente nel budget massimo previsto dal committente.
 
-- **Risk analysis**:
+- **Risk analysis**: i rischi sono gestiti e categorizzati associandoli ai vertici dello _Scope triangle_. Inoltre, le azioni sono classificabili come:
+  - _Accettazione_: accettazione del rischio e delle sue conseguenze.
+  - _Mitigazione_: creazione di un piano operativo (a priori) per minimizzare l'impatto negativo.
+  - _Pianificazione d'emergenza_: azione di intervento decidendo cosa fare nell'esatto momento in cui l'evento si verifica.
+    | Rischio | Scope triangle | Impatto | Azione
+    |---|---|---|---|
+    | Sforamento della deadline | Tempo | Alta | Mitigazione
+    | Abbandono di un developer | Risorse/Costo | Critica | Mitigazione
+    | Esplosione costi cloud | Risorse/Costo | Media | Pianificazione d'emergenza
+    | Crash del backend durante upload progetti | Scopo/Qualità | Critica | Mitigazione
+    | Scarsa adozione piattaforma | Scopo/Qualità | Alta | Mitigazione
 
-- **Ritorno economico (ROI) atteso**:
+- **Ritorno economico (ROI) atteso**: il ritorno economico sull'investimento di €30.000 si svilupperà nel medio-lungo termine. Per il committente, questo valore si divide in ritorni diretti (monetizzabili) e indiretti (operativi e di efficienza).
+  - **Ritorni diretti**:
+    - Una volta consolidata internamente, la piattaforma verrà concessa in licenza a università, incubatori e altre community con un modello Pay-per-Event (es: €500/evento). Con una stima di 15 eventi gestiti da terzi nel primo anno, si prevede un rientro diretto di €7.500/anno.
+    - Incremento delle sponsorizzazione, poichè l'adozione di una piattaforma proprietaria e professionale permette di offrire alle aziende partner spazi di branding digitali dedicati e tracciamento dei talenti. Si stima un aumento dell'attrattività commerciale per gli hackathon di HackIT pari a un 15% sul fatturato degli sponsor (circa €4.000 in più ad evento).
+  - **Ritorni indiretti**:
+    - Drastica riduzione delle ore/uomo, grazie all'automazione dei flussi critici di ogni evento. Si stimano circa 60 ore uomo risparmiate dagli organizzatori per ogni singolo hackathon.
+    - Aumento della soddisfazione di partecipanti e mentor, grazie ad un'esperienza fluida e senza attriti digitali.
