@@ -77,6 +77,41 @@ Queste condizioni, stabilite dai rappresentanti degli stakeholder (Marco Costant
 
 ### RBS (Requirement Breakdown Structure)
 
+La Requirement Breakdown Structure definisce l'architettura funzionale di HackVillage, scomponendo il sistema nelle sue macro-aree operative per garantire una copertura completa del ciclo di vita dell'hackathon.
+
+## 1. Gestione Eventi (Event Management)
+*   **Creazione Evento**: Configurazione di date, descrizione, regole e premi.
+*   **Dashboard Organizzatore**: Monitoraggio in tempo reale degli iscritti e dello stato di avanzamento.
+*   **Pubblicazione**: Gestione dello stato dell'evento (bozza, aperto, in corso, concluso).
+
+## 2. Gestione Iscritti (User Management)
+*   **Registrazione & Login**: Sistema di autenticazione sicuro per partecipanti, mentor e giudici.
+*   **Profilazione**: Gestione delle competenze tecniche e dei ruoli utente.
+*   **Ruoli & Permessi**: Controllo accessi differenziato (RBAC) per garantire la sicurezza dei dati.
+
+## 3. Formazione Team (Team Building)
+*   **Creazione Team**: Funzionalità per la creazione autonoma dei team da parte dei partecipanti.
+*   **Gestione Membri**: Inviti, accettazione e rimozione dai team.
+*   **Validazione Organizzatore**: Strumenti per la supervisione e la validazione dei team formati.
+
+## 4. Gestione Mentor (Mentor Assignment)
+*   **Matching**: Assegnazione dei mentor ai team in base alle competenze necessarie.
+*   **Comunicazione**: Canali dedicati per il supporto mentor-team.
+
+## 5. Raccolta Submission (Submission System)
+*   **Upload Progetti**: Sistema sicuro per il caricamento di file, repository GitHub o link esterni.
+*   **Gestione Scadenze**: Blocco automatico dei caricamenti al termine della finestra temporale.
+*   **Storage Sicuro**: Archiviazione dei file sottomessi con protezione dei dati.
+
+## 6. Valutazione (Evaluation System)
+*   **Pannello Giudici**: Interfaccia dedicata per la visualizzazione dei progetti e l'assegnazione dei punteggi.
+*   **Criteri di Valutazione**: Configurazione dei parametri di voto (es. innovazione, fattibilità tecnica, design).
+*   **Feedback**: Spazio per inserire commenti qualitativi oltre ai punteggi numerici.
+
+## 7. Classifiche (Final Rankings)
+*   **Motore di Calcolo**: Elaborazione automatica dei punteggi finali.
+*   **Visualizzazione Classifica**: Pubblicazione in tempo reale della classifica pubblica al termine della valutazione.
+
 ### Stato del progetto
 - **AS-IS**: attualmente, l'organizzazione degli hackathon da parte di HackIT Community soffre di una forte frammentazione operativa, che causa inefficienze e rallentamenti:
   * **Gestione destrutturata**: Le attività sono distribuite su strumenti eterogenei (Excel, GitHub, Google Forms, email), senza una base di dati comune.
