@@ -56,6 +56,78 @@ Queste condizioni, stabilite dai rappresentanti degli stakeholder (Marco Costant
 
   Vedere _Financial analysis_ per ulteriori dettagli.
 
+### Market analysis
+
+- **Concorrenza**: il mercato attuale è polarizzato e lascia scoperta la fascia centrale:
+  - Software generici: l'utilizzo combinato di Excel, Google Forms, GitHub e Typeform. 
+    - Limiti: totale frammentazione dei dati, tempo perso nelle operazioni manuali e alto rischio di errori nella formazione dei team o nel calcolo dei voti.  
+  - Piattaforme enterprise internazionali (Devpost, Agorize): strumenti strutturati pensati per grandi multinazionali.
+    - Limiti: costi di licenza proibitivi per piccole realtà e fasi delle competizioni estremamente rigide e non personalizzabili.
+
+- **Target di riferimento**: la piattaforma si rivolge a tre attori principali che organizzano competizioni tecnologiche:
+  - Community tech, la quale ha budget ridotti e cercano efficienza operativa.
+  - Università ed enti di formazione, le quali organizzano hackathon didattici e challenge per gli studenti.
+  - PMI e HR, i quali utilizzano le challenge per fare innovazione e cercare nuovi talenti.
+
+- **Proposta di valore**: si posiziona nello spazio intermedio come soluzione verticale all-in-one ed economica:
+  - Flusso centralizzato E2E: copre tutte le 7 fasi dell'evento in un unica piattaforma.
+  - Flessibilità operativa: gestione snella delle fasi critiche (formazione dei team e della submission dei progetti).
+  - Costo sostenibile: tariffe adatte a community e università, con un modello d'uso accessibile.
+```
+   [Software generici]    <--->    [ HackVillage ]   <--->  [Piattaforme enterprise]
+(Disorganizzati, gratis)       (Centralizzato, SaaS)          (Rigide, costosi)
+ ```
+
+ ### Financial analysis
+In questa analisi si valuteranno i principali costi da sostenere, i rischi finanziari correlati e il potenziale ritorno economico del progetto. Tutte le valutazioni qui sotto riportate si riferiscono a delle stime effettuate durante la fase di scoping.
+
+- **Obiettivi finanziari del progetto**:
+  - Ridurre i costi invisibili di gestione.
+  - Garantire la data integrity, azzerando le perdite finanziarie o reputazionali derivanti da errori di punteggio o smarrimento dei dati dei partecipanti.
+  - Aumentare l'attrattività commerciale di HackIT Community, incrementando il numero di sponsor e aziende partner disposte a finanziare gli hackathon grazie a una piattaforma professionale proprietaria.
+  - Predisporre l'applicativo per una futura monetizzazione di tipo SaaS (Software-as-a-Service).
+
+- **Costi di sviluppo**: la stima dei costi di sviluppo (commisurati ai 3 mesi di durata del progetto) si divide in due categorie: costi interni (legati al personale) e costi esterni (infrastruttura e servizi). 
+  - **Costi interni**: rappresentano la quota principale dell'investimento. La stima viene eseguita sulla base del valore di mercato/RAL di riferimento dei singoli componenti del team per i 3 mesi di pendenza del progetto.
+    | Nome | Ruolo | Mensilità | Totale | Carico di lavoro
+    |---|---|---|---|---|
+    | Diego Colì | CEO - Product Owner | €1900 | €5700 | Definizione requisiti, validazione MVP e gestione stakeholder. Direzione strategica
+    | Gabriele Arcese | CTO - Project Manager - Scrum Master | €2000 | €6300 | Gestione roadmap e sprint, risoluzione blocchi tecnici e comunicazione con stakeholder.
+    | Daniele Merighi | Backend Developer | €2250 | €6750 | Progettazione completa architettura del DB ed API
+    | Daniel Meco | Frontend Developer | €2250 | €6750 | Responsabilità totale di UI, UX ed integrazione API
+    | Davide Dionisi | Mental Coach - Psychology Supporter | €800 | €2400 | Part-time poche ore a settimana, sessioni mirate nei momenti critici degli sprint
+
+  - **Costi esterni**: costi vivi per le licenze di sviluppo, il deployment e l'infrastruttura cloud necessaria per il lancio e il primo anno di esercizio.
+    | Tecnologia | Costo annuo | Descrizione
+    |---|---|---|
+    | Infrastruttura cloud (server+DB) | €600 | Servizi cloud scalabili (AWS) per gestire picchi di traffico  
+    | Cloud storage | €100 | Spazio di archiviazione sicuro per submission dei progetti 
+    | Dominio, email e certificati SSL | €100 | Gestione dominio istituizione e casella di posta 
+    | Licenze software e tool | €300 | Asset di sviluppo frontend/backend e tool di monitoraggio crash
+    | Fondo di riserva | €1000 | Eventuali imprevisti
+
+    Il costo totale stimato per lo sviluppo dell'MVP e il mantenimento della piattaforma per il primo anno è pari a circa €29.900, rientrando perfettamente nel budget massimo previsto dal committente.
+
+- **Risk analysis**: i rischi sono gestiti e categorizzati associandoli ai vertici dello _Scope triangle_. Inoltre, le azioni sono classificabili come:
+  - _Accettazione_: accettazione del rischio e delle sue conseguenze.
+  - _Mitigazione_: creazione di un piano operativo (a priori) per minimizzare l'impatto negativo.
+  - _Pianificazione d'emergenza_: azione di intervento decidendo cosa fare nell'esatto momento in cui l'evento si verifica.
+    | Rischio | Scope triangle | Impatto | Azione
+    |---|---|---|---|
+    | Sforamento della deadline | Tempo | Alta | Mitigazione
+    | Abbandono di un developer | Risorse/Costo | Critica | Mitigazione
+    | Esplosione costi cloud | Risorse/Costo | Media | Pianificazione d'emergenza
+    | Crash del backend durante upload progetti | Scopo/Qualità | Critica | Mitigazione
+    | Scarsa adozione piattaforma | Scopo/Qualità | Alta | Mitigazione
+
+- **Ritorno economico (ROI) atteso**: il ritorno economico sull'investimento di €30.000 si svilupperà nel medio-lungo termine. Per il committente, questo valore si divide in ritorni diretti (monetizzabili) e indiretti (operativi e di efficienza).
+  - **Ritorni diretti**:
+    - Una volta consolidata internamente, la piattaforma verrà concessa in licenza a università, incubatori e altre community con un modello Pay-per-Event (es: €500/evento). Con una stima di 15 eventi gestiti da terzi nel primo anno, si prevede un rientro diretto di €7.500/anno.
+    - Incremento delle sponsorizzazione, poichè l'adozione di una piattaforma proprietaria e professionale permette di offrire alle aziende partner spazi di branding digitali dedicati e tracciamento dei talenti. Si stima un aumento dell'attrattività commerciale per gli hackathon di HackIT pari a un 15% sul fatturato degli sponsor (circa €4.000 in più ad evento).
+  - **Ritorni indiretti**:
+    - Drastica riduzione delle ore/uomo, grazie all'automazione dei flussi critici di ogni evento. Si stimano circa 60 ore uomo risparmiate dagli organizzatori per ogni singolo hackathon.
+    - Aumento della soddisfazione di partecipanti e mentor, grazie ad un'esperienza fluida e senza attriti digitali.
+
 ### Desideri e bisogni
 - **Desideri**:
   * **Notifiche real-time**: sistema di avvisi automatici (email o in-app) per comunicare ai partecipanti l'apertura delle iscrizioni, l'assegnazione dei mentor o la pubblicazione dei risultati.
@@ -76,41 +148,42 @@ Queste condizioni, stabilite dai rappresentanti degli stakeholder (Marco Costant
   * **Stabilità sotto carico**: architettura resiliente in grado di supportare picchi di traffico simultaneo, specialmente durante le submission dei progetti.
 
 ### RBS (Requirement Breakdown Structure)
-
 La Requirement Breakdown Structure definisce l'architettura funzionale di HackVillage, scomponendo il sistema nelle sue macro-aree operative per garantire una copertura completa del ciclo di vita dell'hackathon.
 
-## 1. Gestione Eventi
-*   **Creazione Evento**: Configurazione di date, descrizione, regole e premi.
-*   **Dashboard Organizzatore**: Monitoraggio in tempo reale degli iscritti e dello stato di avanzamento.
-*   **Pubblicazione**: Gestione dello stato dell'evento (bozza, aperto, in corso, concluso).
+  1. **Gestione eventi**
+      - **Creazione evento**: Configurazione di date, descrizione, regole e premi.
+      - **Dashboard organizzatore**: Monitoraggio in tempo reale degli iscritti e dello stato di avanzamento.
+      - **Pubblicazione**: Gestione dello stato dell'evento (bozza, aperto, in corso, concluso).
 
-## 2. Gestione Iscritti
-*   **Registrazione & Login**: Sistema di autenticazione sicuro per partecipanti, mentor e giudici.
-*   **Profilazione**: Gestione delle competenze tecniche e dei ruoli utente.
-*   **Ruoli & Permessi**: Controllo accessi differenziato (RBAC) per garantire la sicurezza dei dati.
+  2. **Gestione iscritti**
+      * **Registrazione & Login**: Sistema di autenticazione sicuro per partecipanti, mentor e giudici.
+      * **Profilazione**: Gestione delle competenze tecniche e dei ruoli utente.
+      * **Ruoli & Permessi**: Controllo accessi differenziato (RBAC) per garantire la sicurezza dei dati.
 
-## 3. Formazione Team
-*   **Creazione Team**: Funzionalità per la creazione autonoma dei team da parte dei partecipanti.
-*   **Gestione Membri**: Inviti, accettazione e rimozione dai team.
-*   **Validazione Organizzatore**: Strumenti per la supervisione e la validazione dei team formati.
+  3. **Formazione team**
+      * **Creazione team**: Funzionalità per la creazione autonoma dei team da parte dei partecipanti.
+      * **Gestione membri**: Inviti, accettazione e rimozione dai team.
+      * **Validazione organizzatore**: Strumenti per la supervisione e la validazione dei team formati.
 
-## 4. Gestione Mentor
-*   **Matching**: Assegnazione dei mentor ai team in base alle competenze necessarie.
-*   **Comunicazione**: Canali dedicati per il supporto mentor-team.
+  4. **Gestione mentor**
+      * **Matching**: Assegnazione dei mentor ai team in base alle competenze necessarie.
+      * **Comunicazione**: Canali dedicati per il supporto mentor-team.
 
-## 5. Raccolta Submission
-*   **Upload Progetti**: Sistema sicuro per il caricamento di file, repository GitHub o link esterni.
-*   **Gestione Scadenze**: Blocco automatico dei caricamenti al termine della finestra temporale.
-*   **Storage Sicuro**: Archiviazione dei file sottomessi con protezione dei dati.
+  5. **Raccolta submission**
+      * **Upload progetti**: Sistema sicuro per il caricamento di file, repository GitHub o link esterni.
+      * **Gestione scadenze**: Blocco automatico dei caricamenti al termine della finestra temporale.
+      * **Storage sicuro**: Archiviazione dei file sottomessi con protezione dei dati.
 
-## 6. Valutazione
-*   **Pannello Giudici**: Interfaccia dedicata per la visualizzazione dei progetti e l'assegnazione dei punteggi.
-*   **Criteri di Valutazione**: Configurazione dei parametri di voto (es. innovazione, fattibilità tecnica, design).
-*   **Feedback**: Spazio per inserire commenti qualitativi oltre ai punteggi numerici.
+  6. **Valutazione**
+      * **Pannello giudici**: Interfaccia dedicata per la visualizzazione dei progetti e l'assegnazione dei punteggi.
+      * **Criteri di valutazione**: Configurazione dei parametri di voto (es. innovazione, fattibilità tecnica, design).
+      * **Feedback**: Spazio per inserire commenti qualitativi oltre ai punteggi numerici.
 
-## 7. Classifiche
-*   **Motore di Calcolo**: Elaborazione automatica dei punteggi finali.
-*   **Visualizzazione Classifica**: Pubblicazione in tempo reale della classifica pubblica al termine della valutazione.
+  7. **Classifiche**
+      * **Motore di calcolo**: Elaborazione automatica dei punteggi finali.
+      * **Visualizzazione classifica**: Pubblicazione in tempo reale della classifica pubblica al termine della valutazione.
+
+![RBS schema](/report/img/RBS.jpg)
 
 ### Stato del progetto
 - **AS-IS**: attualmente, l'organizzazione degli hackathon da parte di HackIT Community soffre di una forte frammentazione operativa, che causa inefficienze e rallentamenti:
@@ -130,3 +203,9 @@ La Requirement Breakdown Structure definisce l'architettura funzionale di HackVi
   * **Notifiche avanzate**: implementazione di avvisi automatici tramite SMS o canali di messaggistica istantanea (es: Telegram).
   * **Integrazione con API esterne**: ulteriori integrazioni con tool di terze parti per analisi avanzate delle performance.
   * **SaaS commerciale**: evoluzione della piattaforma in una soluzione licenziabile per altre organizzazioni esterne alla community.
+
+### PMLC adottato
+Nel corso del terzo meeting, il CTO/PM Gabriele Arcese ha formalizzato la scelta del Project Management Life Cycle (PMLC) adattivo/iterativo, individuando nel framework SCRUM la metodologia ideale per la conduzione dei lavori. La scelta di tale framework, inserito in una pianificazione rigorosa, risponde a una duplice necessità emersa durante la fase di scoping:
+- **Stabilità dei vincoli**: i macro-obiettivi e i vincoli finanziari e temporali rimangono rigidi e stabili.
+- **Flessibilità del prodotto**: sebbene il perimetro finanziario sia blindato, le singole funzionalità software necessitano di flessibilità. Trattandosi di un ecosistema che centralizza 7 fasi operative complesse, il team di sviluppo ha bisogno di rilasciare il software in modo incrementale per testarne l'usabilità sul campo e correggere l'implementazione senza stravolgere il piano.
+
