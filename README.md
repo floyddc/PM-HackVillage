@@ -6,8 +6,5 @@ Consente di organizzare eventi, iscrivere partecipanti, formare team, assegnare 
 - Gabriele Arcese (gabriele.arcese@studio.unibo.it)
 - Diego Colì (diego.coli@studio.unibo.it)
 
-## Link utili: 
-- https://github.com/JBmanu/AthenaPlay-PM
-- https://markragg.github.io/PM-Corriamo
-- https://github.com/TommasoBrini/PM-SCALcetto
-- https://github.com/position-pal/PM-report
+## Link to Github pages
+https://floyddc.github.io/PM-HackVillage
