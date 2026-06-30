@@ -1,4 +1,12 @@
 title: PM Report
 description: HackVillage
 
-theme: jekyll-theme-hacker
+lang: it-IT
+timezone: Europe/Rome
+
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+plugins:
+  - jekyll-remote-theme
+
+#theme: jekyll-theme-hacker
