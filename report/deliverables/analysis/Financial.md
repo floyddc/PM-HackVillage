@@ -1,4 +1,10 @@
-### Financial analysis
+---
+layout: default
+title: Financial analysis
+nav_exclude: true
+---
+
+# Financial analysis
 
 In questa analisi si valuteranno i principali costi da sostenere, i rischi finanziari correlati e il potenziale ritorno economico del progetto. Tutte le valutazioni qui sotto riportate si riferiscono a delle stime effettuate durante la fase di scoping.
 

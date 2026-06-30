@@ -1,4 +1,10 @@
-### Market analysis
+---
+layout: default
+title: Market analysis
+nav_exclude: true
+---
+
+# Market analysis
 
 - **Concorrenza**: il mercato attuale è polarizzato e lascia scoperta la fascia centrale:
   - Software generici: l'utilizzo combinato di Excel, Google Forms, GitHub e Typeform. 
