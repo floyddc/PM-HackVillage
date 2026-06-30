@@ -28,8 +28,8 @@ Rappresentano la quota principale dell'investimento. La stima viene eseguita sul
 | Daniel Meco | Frontend Developer | €2250 | €6750 | Responsabilità totale di UI, UX ed integrazione API
 | Davide Dionisi | Mental Coach - Psychology Supporter | €800 | €2400 | Part-time poche ore a settimana, sessioni mirate nei momenti critici degli sprint
 
- ### Costi esterni
- Costi vivi per le licenze di sviluppo, il deployment e l'infrastruttura cloud necessaria per il lancio e il primo anno di esercizio.
+### Costi esterni
+Costi vivi per le licenze di sviluppo, il deployment e l'infrastruttura cloud necessaria per il lancio e il primo anno di esercizio.
 
 | Tecnologia | Costo annuo | Descrizione
 |---|---|---|
@@ -43,9 +43,9 @@ Il costo totale stimato per lo sviluppo dell'MVP e il mantenimento della piattaf
 
 ## Risk analysis
 I rischi sono gestiti e categorizzati associandoli ai vertici dello _Scope triangle_. Inoltre, le azioni sono classificabili come:
-- _Accettazione_: accettazione del rischio e delle sue conseguenze.
-- _Mitigazione_: creazione di un piano operativo (a priori) per minimizzare l'impatto negativo.
-- _Pianificazione d'emergenza_: azione di intervento decidendo cosa fare nell'esatto momento in cui l'evento si verifica.
+- **Accettazione**: accettazione del rischio e delle sue conseguenze.
+- **Mitigazione**: creazione di un piano operativo (a priori) per minimizzare l'impatto negativo.
+- **Pianificazione d'emergenza**: azione di intervento decidendo cosa fare nell'esatto momento in cui l'evento si verifica.
 
 | Rischio | Scope triangle | Impatto | Azione
 |---|---|---|---|
