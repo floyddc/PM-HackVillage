@@ -26,6 +26,7 @@ Attualmente la gestione degli eventi avviene tramite strumenti eterogenei e non 
 La community richiede quindi una piattaforma centralizzata in grado di supportare tutte le fasi operative degli hackathon.
 
 ## Sviluppatori e collaboratori
+
 | Nome | Ruolo
 |---|---|
 | Diego Colì | CEO - Product Owner

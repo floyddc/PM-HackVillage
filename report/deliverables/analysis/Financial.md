@@ -16,6 +16,7 @@ In questa analisi si valuteranno i principali costi da sostenere, i rischi finan
 
 - **Costi di sviluppo**: la stima dei costi di sviluppo (commisurati ai 3 mesi di durata del progetto) si divide in due categorie: costi interni (legati al personale) e costi esterni (infrastruttura e servizi). 
   - **Costi interni**: rappresentano la quota principale dell'investimento. La stima viene eseguita sulla base del valore di mercato/RAL di riferimento dei singoli componenti del team per i 3 mesi di pendenza del progetto.
+
     | Nome | Ruolo | Mensilità | Totale | Carico di lavoro
     |---|---|---|---|---|
     | Diego Colì | CEO - Product Owner | €1900 | €5700 | Definizione requisiti, validazione MVP e gestione stakeholder. Direzione strategica
@@ -25,6 +26,7 @@ In questa analisi si valuteranno i principali costi da sostenere, i rischi finan
     | Davide Dionisi | Mental Coach - Psychology Supporter | €800 | €2400 | Part-time poche ore a settimana, sessioni mirate nei momenti critici degli sprint
 
   - **Costi esterni**: costi vivi per le licenze di sviluppo, il deployment e l'infrastruttura cloud necessaria per il lancio e il primo anno di esercizio.
+
     | Tecnologia | Costo annuo | Descrizione
     |---|---|---|
     | Infrastruttura cloud (server+DB) | €600 | Servizi cloud scalabili (AWS) per gestire picchi di traffico  
@@ -39,6 +41,7 @@ In questa analisi si valuteranno i principali costi da sostenere, i rischi finan
   - _Accettazione_: accettazione del rischio e delle sue conseguenze.
   - _Mitigazione_: creazione di un piano operativo (a priori) per minimizzare l'impatto negativo.
   - _Pianificazione d'emergenza_: azione di intervento decidendo cosa fare nell'esatto momento in cui l'evento si verifica.
+  
     | Rischio | Scope triangle | Impatto | Azione
     |---|---|---|---|
     | Sforamento della deadline | Tempo | Alta | Mitigazione
