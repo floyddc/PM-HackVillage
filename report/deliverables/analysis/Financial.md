@@ -23,7 +23,7 @@ Rappresentano la quota principale dell'investimento. La stima viene eseguita sul
 | Nome | Ruolo | Mensilità | Totale | Carico di lavoro
 |---|---|---|---|---|
 | Diego Colì | CEO - Product Owner | €1900 | €5700 | Definizione requisiti, validazione MVP e gestione stakeholder. Direzione strategica
-| Gabriele Arcese | CTO - Project Manager - Scrum Master | €2000 | €6300 | Gestione roadmap e sprint, risoluzione blocchi tecnici e comunicazione con stakeholder.
+| Gabriele Arcese | CTO - Project Manager - Scrum Master | €2000 | €6000 | Gestione roadmap e sprint, risoluzione blocchi tecnici e comunicazione con stakeholder.
 | Daniele Merighi | Backend Developer | €2250 | €6750 | Progettazione completa architettura del DB ed API
 | Daniel Meco | Frontend Developer | €2250 | €6750 | Responsabilità totale di UI, UX ed integrazione API
 | Davide Dionisi | Mental Coach - Psychology Supporter | €800 | €2400 | Part-time poche ore a settimana, sessioni mirate nei momenti critici degli sprint
