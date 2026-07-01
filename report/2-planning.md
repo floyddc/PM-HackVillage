@@ -9,41 +9,52 @@ Il processo di pianificazione si articola in tre direttrici fondamentali:
 
 ## JPPS (Joint Project Planning Session)
 
-Il JPPS è l'insieme di incontri collaborativi volti a definire la strategia di esecuzione tecnica, stimare lo sforzo operativo e raccogliere l'impegno formale di tutto il team di progetto prima dell'inizio delle attività di sviluppo.
+Il JPPS è l'insieme di incontri collaborativi volti a definire la strategia di esecuzione tecnica, stimare lo sforzo operativo e raccogliere l'impegno formale di tutto il team di progetto prima dell'inizio delle attività di sviluppo. 
+
+### Razionale del Team e Assenza di un Facilitatore Esterno
+A differenza dei progetti tradizionali su larga scala, questa sessione non si avvale di un facilitatore esterno dedicato. Data la natura snella del team e la doppia competenza di Gabriele Arcese (che unisce le capacità organizzative del Project Manager alle competenze tecniche del CTO), è lo stesso PM a guidare le sessioni. Questa scelta azzera le ridondanze comunicative, accelera il processo decisionale e permette di calibrare immediatamente le scelte di business con i vincoli tecnologici e di budget. 
+
+La presenza di ogni singolo partecipante è strettamente necessaria per blindare la fattibilità del piano, considerando che il team di sviluppo è ridotto al minimo e non sono ammessi margini di errore nell'allocazione delle risorse.
 
 ### Partecipanti alla Sessione
-| Risorsa | Ruolo nel Progetto | Contributo nel JPPS |
+| Risorsa | Ruolo nel Progetto | Contributo e Necessità nel JPPS |
 | :--- | :--- | :--- |
-| **Diego Colì** | Product Owner (PO) / CEO | Validazione delle priorità di business e approvazione dei rilasci dei Work Packages della WBS. |
-| **Gabriele Arcese** | Project Manager (PM) / CTO | Conduzione delle sessioni, facilitazione della stima tecnica e blindatura del Percorso Critico. |
-| **Daniele Merighi** | Backend Developer | Scomposizione e stima dei task lato server, database e contratti delle API. |
-| **Daniel Meco** | Frontend Developer | Scomposizione e stima dei task relativi all'interfaccia utente e integrazione delle API. |
-| **Davide Dionisi** | Mental Coach | Monitoraggio e bilanciamento del carico cognitivo per garantire la sostenibilità del piano. |
+| **Diego Colì** | Product Owner (PO) / CEO | Essenziale per garantire l'allineamento con gli obiettivi di HackIT Community e validare le priorità di business durante la scomposizione delle attività. |
+| **Gabriele Arcese** | Project Manager (PM) / CTO | Gestisce e conduce il JPPS senza facilitatori esterni. Cura la transizione logica dai requisiti alle tempistiche e presidia l'architettura tecnica del software. |
+| **Daniele Merighi** | Backend Developer | Unica risorsa lato server. La sua presenza è critica per stimare lo sforzo del database, delle logiche di business e per definire la fattibilità tecnica dei pacchetti di lavoro. |
+| **Daniel Meco** | Frontend Developer | Unica risorsa lato client. Indispensabile per quantificare i tempi di sviluppo delle interfacce e garantire che l'esperienza utente sia allineata con i tempi di rilascio. |
+| **Davide Dionisi** | Mental Coach | Figura strategica per valutare la sostenibilità psicologica del piano. Il suo contributo serve a prevenire il burnout derivante dal carico di lavoro concentrato su soli due developer. |
 
 ---
 
 ### Struttura dei Meeting di Pianificazione
 
-La sessione di pianificazione congiunta è stata strutturata in 3 meeting sequenziali e mirati, per passare progressivamente dalla strategia macroscopica ai singoli task di sviluppo.
+La sessione di pianificazione congiunta è stata suddivisa in 3 meeting sequenziali, ognuno finalizzato all'ottenimento di un output matematico e operativo ben preciso.
 
-#### Meeting #1: Definizione della Strategia di Sviluppo e Logica di Schedulazione
-*   **Obiettivi**: Stabilire le regole d'ingaggio del team di sviluppo, la frequenza delle milestone e le strategie per neutralizzare i vincoli di risorse (solo due programmatori effettivi).
+#### Meeting #1: Transizione da Requisiti ad Attività (Output: WBS)
+*   **Obiettivi**: Scomporre analiticamente i requisiti funzionali della RBS (Requirement Breakdown Structure) in compiti operativi e task tecnici elementari per i programmatori.
 *   **Tematiche di Discussione**:
-    *   **Sviluppo API-First**: Accordo per disaccoppiare il lavoro BE/FE; Daniele (BE) definirà i contratti delle API all'inizio di ogni blocco funzionale della WBS, consentendo a Daniel (FE) di lavorare in parallelo con dati mockati.
-    *   **Avanzamento basato su Milestone**: Abbandono di logiche a sprint fissi in favore di rilasci incrementali basati sul completamento dei macro-moduli della WBS.
-    *   **Mitigazione preventiva dei rischi della SWOT**: Pianificazione di stress test di carico sul server per il sistema di sottomissione dei progetti già a metà della timeline (circa 1.5 mesi dall'avvio), per evitare crash critici alla fine del progetto.
-    *   **Sostenibilità del lavoro**: Definizione dei parametri di monitoraggio del carico cognitivo con il Mental Coach per prevenire colli di bottiglia e burnout.
+    *   Analisi dettagliata delle 7 macro-aree della RBS per estrarre i singoli task necessari alla creazione dell'MVP.
+    *   Definizione dell'approccio *API-first* per permettere a Daniele (BE) e Daniel (FE) di lavorare in parallelo minimizzando le interdipendenze bloccanti.
+    *   **Output Raggiunto**: Approvazione della **WBS (Work Breakdown Structure)** completa.
+Aggiungere link a WBS
 
-#### Meeting #2: Transizione da RBS a WBS e Stima dello Sforzo
-*   **Obiettivi**: Trasformare i requisiti funzionali emersi nello Scoping (RBS) in compiti operativi concreti (WBS) e stimare le relative durate.
+#### Meeting #2: Sequenziamento e Roadmap Temporale (Output: PND e Gantt)
+*   **Obiettivi**: Determinare l'ordine logico di esecuzione delle attività mappate nella WBS, calcolare le stime temporali e strutturare il calendario dei rilasci.
 *   **Tematiche di Discussione**:
-    *   **Scomposizione in Work Packages**: Analisi di ciascuno dei 7 macro-requisiti della RBS e mappatura delle componenti tecniche necessarie per realizzarli.
-    *   **Pianificazione e Stima delle Durate**: Assegnazione delle stime temporali (in ore/uomo o giorni) a ciascun task elementare della WBS, basandosi sul confronto diretto tra il developer Backend e il developer Frontend.
-    *   **Identificazione delle Dipendenze**: Mappatura di quali task backend devono necessariamente precedere lo sviluppo frontend per evitare blocchi operativi.
+    *   Stima delle durate dei singoli Work Packages espressa in ore/uomo e giorni di sviluppo effettivi.
+    *   Costruzione del diagramma reticolare (PND - Project Network Diagram) per stabilire i legami di precedenza tecnologica.
+    *   Identificazione del Percorso Critico per blindare la consegna finale entro la scadenza invalicabile dei 3 mesi.
+    *   **Output Raggiunto**: Definizione del **PND** e del diagramma di **Gantt** di progetto.
+Aggiungere link a pnd e gantt 
+#### Meeting #3: Valutazione degli Impatti e Protezione della Baseline (Output: Risk Analysis)
+*   **Obiettivi**: Sottoporre la pianificazione temporale e finanziaria a uno stress-test teorico, individuando i potenziali ostacoli e definendo i piani di mitigazione.
 
-#### Meeting #3: Blindatura della Baseline di Progetto e Approvazione
-*   **Obiettivi**: Consolidare la schedulazione temporale definitiva, identificare il Percorso Critico e formalizzare l'impegno del team.
 *   **Tematiche di Discussione**:
-    *   **Definizione del Percorso Critico**: Individuazione della sequenza di task della WBS che non può subire alcun ritardo per non compromettere la consegna dell'MVP entro il limite invalicabile dei 3 mesi.
-    *   **Allocazione Finale del Budget**: Associazione dei costi stimati ai pacchetti di lavoro della WBS per non superare il tetto dei €15.000.
-    *   **Firma della Baseline**: Approvazione formale del piano di sviluppo da parte del Product Owner e avvio ufficiale dei lavori.
+    *   Analisi dei rischi specifici legati alla pianificazione (es. collo di bottiglia dovuto all'assenza di uno dei due sviluppatori o complessità impreviste nell'integrazione con GitHub).
+    *   Pianificazione anticipata degli stress test per il sistema di sottomissione progetti (punto critico della SWOT), fissandoli a metà della timeline.
+    *   Strutturazione dei cuscinetti temporali (buffer) e allocazione delle riserve di contingenza sul budget di €15.000.
+    *   Validazione finale del Mental Coach sulla sostenibilità del ritmo di lavoro stabilito.
+    *   **Output Raggiunto**: Approvazione del documento definitivo di **Risk Analysis** e firma della baseline operativa.
+
+ Aggiungere link a rink analysis 
