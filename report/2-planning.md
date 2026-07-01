@@ -8,7 +8,7 @@ nav_order: 3
 
 La fase di pianificazione definisce la strategia operativa necessaria a trasformare i requisiti in una roadmap di rilascio concreta e sostenibile. Per rispondere con efficacia ai vincoli di tempo (3 mesi) e di budget (€15.000) dettati dagli stakeholder, il progetto adotta un approccio iterativo e incrementale calibrato sulle dimensioni del team. Questo garantisce la flessibilità necessaria a integrare i feedback continui del committente senza perdere di vista l'obiettivo principale.
 
-Il processo di pianificazione si articola in tre direttrici fondamentali:
+Il processo di pianificazione si articola in quattro direttrici fondamentali:
 1. **Evoluzione dei Requisiti**: Traduzione diretta della RBS (Requirement Breakdown Structure) in una WBS (Work Breakdown Structure) analitica, convertendo i requisiti funzionali in task operativi pronti per lo sviluppo.
 2. **Ottimizzazione del Flusso**: Scomposizione tecnica del lavoro per identificare tempestivamente le dipendenze tecnologiche e blindare il Percorso Critico.
 3. **Bilanciamento del Carico**: Distribuzione mirata delle attività per massimizzare la produttività dell'unico sviluppatore Backend e dell'unico sviluppatore Frontend, azzerando i rischi di saturazione delle risorse.
