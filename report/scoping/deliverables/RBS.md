@@ -40,4 +40,4 @@ L'RBS definisce l'architettura funzionale di HackVillage, scomponendo il sistema
 * **Motore di calcolo**: elaborazione automatica dei punteggi finali.
 * **Visualizzazione classifica**: pubblicazione in tempo reale della classifica pubblica al termine della valutazione.
 
-![RBS schema](../img/RBS.jpg)
+![RBS schema](../../img/RBS.jpg)
