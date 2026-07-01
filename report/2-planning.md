@@ -1,3 +1,9 @@
+---
+layout: default
+title: Planning
+nav_order: 3
+---
+
 # Planning
 
 La fase di pianificazione definisce la strategia operativa necessaria a trasformare i requisiti in una roadmap di rilascio concreta e sostenibile. Per rispondere con efficacia ai vincoli di tempo (3 mesi) e di budget (€15.000) dettati dagli stakeholder, il progetto adotta un approccio iterativo e incrementale calibrato sulle dimensioni del team. Questo garantisce la flessibilità necessaria a integrare i feedback continui del committente senza perdere di vista l'obiettivo principale.
