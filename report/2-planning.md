@@ -69,7 +69,7 @@ Nell'ultimo meeting il team ha discusso su come gestire le potenziali criticità
 ### Tematiche di discussione
 - Analisi dei rischi specifici legati alla pianificazione (es. collo di bottiglia dovuto all'assenza di uno dei due sviluppatori o complessità impreviste nell'integrazione con GitHub).
 - Pianificazione anticipata degli stress test per il sistema di sottomissione progetti (punto critico della SWOT), fissandoli a metà della timeline.
-- Strutturazione dei cuscinetti temporali (buffer) e allocazione delle riserve di contingenza sul budget di €15.000.
+- Strutturazione dei cuscinetti temporali (buffer) e allocazione delle riserve di contingenza sul budget.
 - Validazione finale del Mental Coach sulla sostenibilità del ritmo di lavoro stabilito.
 
 ### Output

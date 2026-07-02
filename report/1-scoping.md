@@ -24,8 +24,8 @@ Il Product Owner (Diego Colì) e il Project Manager (Gabriele Arcese) hanno inco
 - [SWOT analysis](scoping/deliverables/SWOT.md): mappatura dei punti di forza/debolezza interni e opportunità/minacce esterne del mercato rispetto a HackVillage.
 - [CoS - Conditions of Satisfaction](scoping/deliverables/CoS.md): criteri di successo qualitativi e quantitativi minimi richiesti dagli stakeholder per ritenere il progetto soddisfacente.
 - [POS - Project Overview Statement](scoping/deliverables/POS.md): sintesi esecutiva ufficiale del progetto che racchiude il problema, il macro obiettivo, i vincoli. Include al suo interno:
-  - [Market analysis](scoping/deliverables/analysis/Market.md).
-  - [Financial analysis](scoping/deliverables/analysis/Financial.md).
+  - [Market analysis](scoping/deliverables/Market.md).
+  - [Financial analysis](scoping/deliverables/Financial.md).
 
 ## Meeting #2 - Analisi requisiti e scomposizione funzionale
 ### Obiettivi 
