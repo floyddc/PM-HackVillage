@@ -1,8 +1,10 @@
 # HackVillage - Project Report
 Report per l'esame di Project Management. Navigare nell'indice per leggerne i dettagli.
+
 ## Team
 - Gabriele Arcese (gabriele.arcese@studio.unibo.it)
 - Diego Colì (diego.coli@studio.unibo.it)
+
 ## Indice
 0. [Contesto](0-contesto.md)
 1. [Scoping](1-scoping.md)

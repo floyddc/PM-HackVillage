@@ -8,7 +8,7 @@ nav_exclude: true
 
 ## AS-IS
 Attualmente, l'organizzazione degli hackathon da parte di HackIT Community soffre di una forte frammentazione operativa, che causa inefficienze e rallentamenti:
-* **Gestione destrutturata**: Le attività sono distribuite su strumenti eterogenei (Excel, GitHub, Google Forms, email), senza una base di dati comune.
+* **Gestione destrutturata**: le attività sono distribuite su strumenti eterogenei (Excel, GitHub, Google Forms, email), senza una base di dati comune.
 * **Processi manuali**: la formazione dei team e l'assegnazione dei mentor avvengono tramite fogli di calcolo, comportando un alto rischio di errore umano e una gestione complessa.
 * **Comunicazione frammentata**: le informazioni sono disperse tra diversi canali, rendendo difficile il coordinamento tra organizzatori, mentor e partecipanti.
 * **Valutazione complessa**: i giudici operano su piattaforme terze, costringendo gli organizzatori a operazioni di "travaso" manuale dei dati per stilare le classifiche finali.

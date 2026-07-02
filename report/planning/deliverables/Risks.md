@@ -28,5 +28,5 @@ Per assorbire gli impatti derivanti dai rischi sopra elencati (in particolare **
 * **Scopo**: assorbire eventuali ritardi minori legati alla curva di apprendimento tecnologica delle API senza far slittare la consegna dell'MVP.
 
 ### 2. Riserva Finanziaria
-* **Applicazione**: Accantonamento di una quota di contingenza pari a €3.000 (10% del budget totale di €30.000).
+* **Applicazione**: accantonamento di una quota di contingenza pari a €3.000 (10% del budget totale di €30.000).
 * **Scopo**: questa somma verrà sbloccata esclusivamente dal Project Manager in caso di attivazione dei piani di contingenza, come l'acquisto di servizi terzi per l'integrazione con GitHub o per coprire i costi di auto-scaling del cloud in caso di picchi di carico.

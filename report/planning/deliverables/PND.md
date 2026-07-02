@@ -32,7 +32,7 @@ Per poter applicare il metodo del percorso critico, gli Story Points complessivi
 | **WP-INTEGRATION** | - | 7 gg | Unione binari di sviluppo frontend e backend e allineamento con dati reali. |
 | **WP-TEST** | - | 5 gg | Simulazione carico dell'ultimo minuto sulla submission progetti prima della scadenza. |
 | **WP-DEPLOY** | - | 8 gg | Collaudo finale con stakeholder e migrazione dall'ambiente di staging alla produzione. |
-| **TOTALE** | **228 SP** | **60 gg / 12 settimane di calendario** | - |
+| **TOTALE** | **228 SP** | **60 gg / 12 settimane di calendario** | Non vengono considerati i 5 gg della WBS 4 poichè è un'attività lato frontend che avviene in parallelo |
 
 ## Logica precedenze
 Tutti i legami di precedenza all'interno del diagramma seguono la logica **Finish-to-Start (FS)**: un'attività successiva non può iniziare se l'attività precedente non è stata completata. 
