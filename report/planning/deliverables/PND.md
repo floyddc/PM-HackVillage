@@ -76,3 +76,5 @@ Di seguito viene riportata la matrice del calcolo dei tempi della rete, che evid
 
 ### Nota di gestione del rischio operativo
 Lo sviluppatore frontend (Daniel Meco) gode di un margine di scorrimento fluttuante tra i 4 e i 7 giorni lavorativi lungo le sue attività. Questo significa che, in caso di colli di bottiglia sul percorso critico del backend, lo Scrum Master Gabriele Arcese può riallocare temporaneamente Daniel Meco su compiti di supporto logico, code review o testing, assorbendo le criticità senza causare alcuno slittamento sulla data di consegna finale.
+
+![PND schema](../../img/PND.drawio.png)

@@ -51,6 +51,7 @@ Una volta individuate le attività tramite il diagramma [WBS](planning/deliverab
 - Determinare l'ordine logico di esecuzione delle attività mappate nella WBS.
 - Calcolare le stime temporali.
 - Strutturare il calendario dei rilasci.
+
 ### Tematiche di discussione
 - Stima delle durate dei singoli work packages espressa in ore/uomo e giorni di sviluppo effettivi.
 - Costruzione del diagramma reticolare ([PND](planning/deliverables/PND.md)) per stabilire i legami di precedenza tecnologica. 
