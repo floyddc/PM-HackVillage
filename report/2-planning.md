@@ -9,7 +9,7 @@ nav_order: 3
 La fase di pianificazione definisce la strategia operativa necessaria a trasformare i requisiti in una roadmap di rilascio concreta e sostenibile. Per rispondere con efficacia ai vincoli di tempo e di budget dettati dagli stakeholder, il progetto adotta un approccio iterativo e incrementale calibrato sulle dimensioni del team. Questo garantisce la flessibilità necessaria a integrare i feedback continui del committente senza perdere di vista l'obiettivo principale.
 
 Il processo di pianificazione si articola in 4 direttrici fondamentali:
-1. **Evoluzione dei requisiti**: traduzione diretta della [RBS](scoping/deliverables/RBS.md) in una [WBS](planning/deliverables/WBS.md) analitica, convertendo i requisiti funzionali in task operativi pronti per lo sviluppo.
+1. **Evoluzione dei requisiti**: traduzione diretta della **RBS** in una **WBS** analitica, convertendo i requisiti funzionali in task operativi pronti per lo sviluppo.
 2. **Ottimizzazione del flusso**: scomposizione tecnica del lavoro per identificare tempestivamente le dipendenze tecnologiche e blindare il Percorso Critico.
 3. **Bilanciamento del carico**: distribuzione mirata delle attività per massimizzare la produttività dell'unico sviluppatore backend e dell'unico sviluppatore frontend, azzerando i rischi di saturazione delle risorse.
 4. **Gestione dei rischi**: metodologie mirate alla gestione dei possibili rischi analizzati in fase di scooping, impedendo ad essi di interrompere o di rallentare il flusso di lavoro del team.
@@ -35,17 +35,17 @@ La presenza di ogni singolo partecipante è strettamente necessaria per blindare
 Nella prima JPPS lo scopo principale è stato quello di avviare il lavoro sul progetto e di iniziare a strutturare la base per la fase di pianificazione.
 
 ### Obiettivi
-- Scomporre analiticamente i requisiti funzionali della [RBS](scoping/deliverables/RBS.md) in compiti operativi e task tecnici elementari per i programmatori.
+- Scomporre analiticamente i requisiti funzionali della **RBS** in compiti operativi e task tecnici elementari per i programmatori.
 
 ### Tematiche di discussione
-- Analisi dettagliata delle 7 macro-aree della [RBS](scoping/deliverables/RBS.md) per estrarre i singoli task necessari alla creazione dell'MVP.
+- Analisi dettagliata delle 7 macro-aree della **RBS** per estrarre i singoli task necessari alla creazione dell'MVP.
 - Definizione dell'approccio *API-first* per permettere al team di sviluppatori di lavorare in parallelo minimizzando le interdipendenze bloccanti.
 
 ### Output
 - [WBS - Work Breakdown Structure](planning/deliverables/WBS.md) approvata.
 
 ## Meeting #2 - Sequenziamento e roadmap temporale
-Una volta individuate le attività tramite il diagramma [WBS](planning/deliverables/WBS.md), è stato necessario capire come svolgere queste attività e stabilire il tempo necessario per l'esecuzione di essi.
+Una volta individuate le attività tramite il diagramma **WBS**, è stato necessario capire come svolgere queste attività e stabilire il tempo necessario per l'esecuzione di essi.
 
 ### Obiettivi
 - Determinare l'ordine logico di esecuzione delle attività mappate nella WBS.
@@ -54,11 +54,11 @@ Una volta individuate le attività tramite il diagramma [WBS](planning/deliverab
 
 ### Tematiche di discussione
 - Stima delle durate dei singoli work packages espressa in ore/uomo e giorni di sviluppo effettivi.
-- Costruzione del diagramma reticolare ([PND](planning/deliverables/PND.md)) per stabilire i legami di precedenza tecnologica. 
+- Costruzione del diagramma reticolare **PND** per stabilire i legami di precedenza tecnologica. 
 - Identificazione del percorso critico per blindare la consegna finale entro la scadenza invalicabile dei 3 mesi.
 
 ### Output
-- [PND - Project Network Diagram](planning/deliverables/PND.md)
+- [PND - Project Network Diagram](planning/deliverables/PND.md).
 - [Diagramma di Gantt](planning/deliverables/Gantt.md).
 
 ## Meeting #3 - Valutazione impatti e protezione baseline
