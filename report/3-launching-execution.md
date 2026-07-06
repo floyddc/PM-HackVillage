@@ -54,11 +54,11 @@ La conduzione operativa si appoggia su quattro pilastri tecnologici per garantir
 
 ### 1. Problem solving
 Per evitare che imprevisti tecnici o bug bloccanti sul percorso critico rallentino la consegna dell'MVP, il team adotta un flusso strutturato di risoluzione prima di registrare le azioni nell'Issue Log:
-1. **Definizione**: Si chiarisce e si delimita il problema in modo preciso, descrivendo contesto, impatti e obiettivi della risoluzione.
+1. **Definizione**: si chiarisce e si delimita il problema in modo preciso, descrivendo contesto, impatti e obiettivi della risoluzione.
 2. **Analisi delle cause**: Identificare l'origine tecnica o logica del problema.
-3. **Brainstorming**: Sessione rapida di proposte per soluzioni creative senza filtri, coinvolgendo attivamente tutti i membri.
-4. **Valutazione**: Selezione dell'idea migliore pesandone la fattibilità rispetto al budget e ai tempi rimanenti della baseline.
-5. **Piano d'azione**: Allocazione immediata del fix all'interno del codice per ripristinare il flusso di sviluppo.
+3. **Brainstorming**: sessione rapida di proposte per soluzioni creative senza filtri, coinvolgendo attivamente tutti i membri.
+4. **Valutazione**: selezione dell'idea migliore pesandone la fattibilità rispetto al budget e ai tempi rimanenti della baseline.
+5. **Piano d'azione**: allocazione immediata del fix all'interno del codice per ripristinare il flusso di sviluppo.
 
 ### 2. Decision making
 Le scelte relative all'architettura software o alle priorità operative non vengono prese in modo gerarchico. Ogni membro del team partecipa attivamente esprimendo il proprio parere tecnico. Il Mental Coach interviene specificamente per valutare l'impatto cognitivo ed evitare fenomeni di burnout derivanti da un carico lavorativo eccessivo concentrato su soli due programmatori. Tutte le decisioni vincolanti vengono registrate dal PM a tutela dei criteri di successo qualitativi.
