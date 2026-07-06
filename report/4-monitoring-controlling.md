@@ -6,31 +6,56 @@ nav_order: 5
 
 # Monitoring & Controlling
 
-L'obiettivo di questa fase è controllare e monitorare sistematicamente l’avanzamento delle attività per verificare che i tempi (3 mesi), i costi (€30.000) e gli obiettivi dell'MVP di HackVillage siano rigorosamente rispettati. Attraverso il monitoraggio è possibile individuare tempestivamente eventuali scostamenti o criticità rispetto al percorso critico stabilito, intervenendo con azioni correttive immediate per garantire la corretta realizzazione del progetto secondo quanto pianificato nella baseline.
+L'obiettivo di questa fase è controllare e monitorare sistematicamente l’avanzamento delle attività per verificare che i tempi, i costi e gli obiettivi dell'MVP di HackVillage siano rigorosamente rispettati. Attraverso il monitoraggio è possibile individuare tempestivamente eventuali scostamenti o criticità rispetto al percorso critico stabilito, intervenendo con azioni correttive immediate per garantire la corretta realizzazione del progetto secondo quanto pianificato nella baseline.
 
 ## Reporting
 
-L'adozione del framework SCRUM garantisce al team un flusso costante di informazioni grazie a riunioni settimanali strutturate (Sprint Planning, Review e Retro) e alla suddivisione degli obiettivi in sprint brevi, incrementali e misurabili. Questo approccio agevola la trasparenza sull'avanzamento dei due binari di sviluppo (Backend e Frontend) e il monitoraggio sistematico dei progressi legati alle macro-aree della WBS.
+Il progetto adotta il framework SCRUM, che assicura un monitoraggio continuo attraverso Sprint Planning, Daily SCRUM, Sprint Review e Sprint Retrospective. La suddivisione dello sviluppo in sprint incrementali permette di verificare costantemente l'avanzamento delle attività e il raggiungimento delle milestone previste.
 
-Per il monitoring quotidiano, il team utilizza **YouTrack**, configurato con board SCRUM dedicate e campi su misura per priorità, stati di avanzamento, stime in Story Points (tarate sulla velocity di 38 SP per sprint) e assegnazioni specifiche per gli sviluppatori. Qualsiasi attività o deliverable tecnico viene tracciato in modo puntuale all'interno dello sprint corrente, consentendo a Gabriele Arcese (nel doppio ruolo di PM e CTO) di avere sempre sotto controllo il quadro aggiornato dei compiti in corso e delle singole responsabilità di sviluppo.
+## Monitoring quotidiano - YouTrack
+Per la gestione operativa e il monitoraggio quotidiano viene utilizzato YouTrack, configurato con una Scrum Board dedicata al progetto HackVillage. Ogni attività derivata dalla WBS viene registrata come ticket e associata allo sprint di riferimento. Per ciascun ticket vengono tracciate informazioni quali:
+
+- Priorità.
+- Stato di avanzamento (*To Do, In Progress, In Review, Done*).
+- Story Points, stimati sulla base della velocity del team (38 SP per sprint).
+- Assegnatario.
+- Componente di sviluppo (backend o frontend).
+- Data di scadenza.
 
 La scelta di YouTrack si basa sulla sua affidabilità, sulla semplicità di utilizzo e sulla perfetta integrazione con le metodologie Agile, ottimizzando il coordinamento di un team snello ed evitando dispersioni comunicative.
 
-L'interfaccia di YouTrack permette di visualizzare i principali stati dei ticket e di tenere sotto controllo l'allocazione delle attività ai diversi membri del team. I ticket eventualmente non completati nello sprint corrente vengono automaticamente ripianificati e riposizionati nel backlog dello sprint successivo, garantendo una gestione agile delle priorità e salvaguardando il margine di scorrimento (*Slack*) a disposizione delle lavorazioni client-side. In questo modo, il reporting diventa un processo continuo di allineamento, revisione e miglioramento.
+YouTrack mette inoltre a disposizione dashboard personalizzate e report automatici che consentono al Project Manager di monitorare costantemente lo stato del progetto. In particolare vengono utilizzati:
 
-## ISSUE LOG
+| **Tipologia di report** | **Tool** | **Utilizzo** |
+| --- | --- | --- |
+| **Current Period**	| Burndown Chart | Verifica dell'andamento dello sprint confrontando il lavoro completato con quello ancora da svolgere.
+| **Current Period**	| Activity Stream | Monitoraggio delle modifiche effettuate ai ticket e delle attività svolte dal team.
+| **Cumulative**	| Cumulative Flow Diagram | Analisi del flusso delle attività nei diversi stati per individuare eventuali colli di bottiglia.
+| **Exception** | Saved Searches e Dashboard | Individuazione automatica di ticket bloccanti, scaduti o ad alta priorità.
+| **Variance** | Time Report (Estimated vs Actual) | Confronto tra le stime iniziali e il lavoro effettivamente svolto per evidenziare eventuali scostamenti dalla pianificazione.
 
-Per la gestione strutturata delle problematiche tecniche, degli ostacoli organizzativi e delle richieste emerse durante lo sviluppo, il team utilizza l'**Issue Log** integrato in YouTrack.
+Durante i Daily SCRUM il team consulta la Scrum Board per verificare l'avanzamento delle attività e aggiornare lo stato dei ticket. Nelle Sprint Review e nelle Retrospettive vengono invece analizzati i report prodotti da YouTrack per valutare le prestazioni dello sprint, identificare eventuali criticità e pianificare azioni di miglioramento.
 
-L'Issue Log centralizza la lista dei problemi, dei bug architetturali o delle anomalie riscontrate. Serve a monitorare le problematiche aperte, mappandole in base ai criteri di impatto sullo *Scope Triangle* e registrando le decisioni prese per risolverle. Ogni issue viene documentata con dettagli specifici quali:
+Le attività non completate entro la fine dello sprint vengono riportate automaticamente nel backlog e rivalutate durante lo Sprint Planning successivo, mantenendo allineata la pianificazione con le priorità del progetto e preservando il margine di flessibilità disponibile per le attività di sviluppo.
 
-*   **ID Number**: Codice identificativo univoco del ticket di errore.
-*   **Date logged**: Data di rilevazione del problema durante lo sprint.
-*   **Descrizione del problema**: Dettaglio tecnico del bug 
-*   **Descrizione dell’impatto sul progetto**: Valutazione degli effetti sulla timeline, sulle milestone o sull'eventuale minaccia di slittamento del percorso critico di backend.
-*   **Definizione del “Proprietario”**: Assegnazione della responsabilità della risoluzione.
-*   **Azione intrapresa**: Piano d'azione correttivo e dettagliato volto a risolvere l'anomalia.
-*   **Stato**: Condizione del ticket (Aperto, In Corso, In Verifica, Chiuso).
-*   **Esito**: Risoluzione formale e impatto finale sulla baseline dell'MVP.
+### Issue Log
+Per la gestione delle problematiche tecniche e organizzative viene utilizzato l'Issue Log integrato in YouTrack. Ogni bug, impedimento o anomalia viene registrato come issue dedicata, consentendo al team di monitorarne lo stato durante l'intero ciclo di vita del progetto.
 
-L’Issue Log è accessibile a tutti i membri del team, favorisce la trasparenza collaborativa ed è consultato regolarmente sia durante i Daily SCRUM mattutini, sia nelle sessioni di Sprint Review e nelle retrospettive. Il monitoraggio costante di questo log si estende su tutto il ciclo di vita del progetto, assicurando tempestività nella risoluzione degli ostacoli tecnici e salvaguardando il benessere operativo del team supervisionato dal Mental Coach.
+Per ogni issue vengono registrate le seguenti informazioni:
+
+*   **ID Number**: codice identificativo univoco del ticket di errore.
+*   **Data di apertura**: data di rilevazione del problema durante lo sprint.
+*   **Descrizione del problema**: dettaglio tecnico del bug. 
+*   **Impatto sul progetto**: valutazione degli effetti sulla timeline, sulle milestone o sull'eventuale minaccia di slittamento del percorso critico di backend.
+*   **Assegnatario**: assegnazione della responsabilità della risoluzione.
+*   **Azione intrapresa**: piano d'azione correttivo e dettagliato volto a risolvere l'anomalia.
+*   **Stato**: condizione del ticket (*Aperto, In Corso, In Verifica, Chiuso*).
+*   **Esito**: risoluzione formale e impatto finale sulla baseline dell'MVP.
+*   **Data di chiusura**: conclusione della risoluzione.
+
+L'Issue Log viene consultato quotidianamente durante i Daily SCRUM e riesaminato nelle Sprint Review e nelle Retrospettive per verificare l'evoluzione delle problematiche aperte e pianificare eventuali azioni correttive.
+
+### Scope Bank
+Le richieste di nuove funzionalità non comprese nello scope iniziale dell'MVP vengono registrate in uno Scope Bank gestito tramite un backlog dedicato in YouTrack. Ogni richiesta viene documentata con una descrizione, una valutazione preliminare dell'impatto e una priorità, senza influenzare la pianificazione dello sprint in corso.
+
+Lo Scope Bank viene riesaminato al termine di ogni sprint e le nuove funzionalità vengono eventualmente inserite nel Product Backlog soltanto se risultano compatibili con i vincoli di tempo, costo e qualità definiti nella baseline del progetto. Questo approccio consente di gestire le richieste di cambiamento senza compromettere gli obiettivi dell'MVP.
