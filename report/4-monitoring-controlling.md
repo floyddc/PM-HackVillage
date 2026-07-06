@@ -13,7 +13,7 @@ L'obiettivo di questa fase è controllare e monitorare sistematicamente l’avan
 Il progetto adotta il framework SCRUM, che assicura un monitoraggio continuo attraverso Sprint Planning, Daily SCRUM, Sprint Review e Sprint Retrospective. La suddivisione dello sviluppo in sprint incrementali permette di verificare costantemente l'avanzamento delle attività e il raggiungimento delle milestone previste.
 
 ## Monitoring quotidiano - YouTrack
-Per la gestione operativa e il monitoraggio quotidiano viene utilizzato YouTrack, configurato con una Scrum Board dedicata al progetto HackVillage. Ogni attività derivata dalla WBS viene registrata come ticket e associata allo sprint di riferimento. Per ciascun ticket vengono tracciate informazioni quali:
+Per la gestione operativa e il monitoraggio quotidiano viene utilizzato YouTrack, configurato con una Scrum Board dedicata al progetto HackVillage. Ogni attività derivata dalla [WBS](planning/deliverables/WBS.md) viene registrata come ticket e associata allo sprint di riferimento. Per ciascun ticket vengono tracciate informazioni quali:
 
 - Priorità.
 - Stato di avanzamento (*To Do, In Progress, In Review, Done*).
