@@ -13,21 +13,20 @@ L'obiettivo di questa fase finale è formalizzare la conclusione di tutte le att
 
 Durante l'intero ciclo di vita di HackVillage, il team ha prodotto e strutturato una suite documentale centralizzata, accessibile tramite GitHub Pages, che traccia l'evoluzione strategica, tecnica e di controllo del software:
 
-1.  **Contesto**: presentazione dello scenario operativo, della community committente (HackIT) e dell'assetto delle risorse.
-2.  **SWOT Analysis**: valutazione strategica dei punti di forza, debolezza interni e delle opportunità e minacce del mercato di riferimento.
-3.  **Conditions of Satisfaction (CoS)**: criteri minimi qualitativi e quantitativi richiesti dagli stakeholder per decretare il successo dell'iniziativa.
-4.  **Project Overview Statement (POS)**: sintesi esecutiva ufficiale contenente il problema cardine, il macro-obiettivo e i vincoli d'ambito.
-5.  **Market Analysis**: analisi del posizionamento competitivo rispetto a software generici e piattaforme enterprise internazionali.
-6.  **Financial Analysis**: stima analitica dei costi interni del personale, dei costi cloud AWS esterni e proiezioni sul ROI atteso.
-7.  **Desideri e Bisogni**: mappatura, analisi e categorizzazione delle necessità funzionali ed emozionali dei diversi utenti della piattaforma.
-8.  **Requirement Breakdown Structure (RBS)**: scomposizione gerarchica ad albero di tutti i requisiti funzionali e non funzionali del sistema.
-9.  **Stato del Progetto**: definizione analitica dello scenario *AS-IS*, *TO-BE* e catalogo delle funzionalità future *NICE-TO-HAVE*.
-10. **Work Breakdown Structure (WBS)**: scomposizione analitica dei requisiti in compiti operativi e task tecnici elementari sulle 7 macro-aree.
-11. **Project Network Diagram (PND)**: mappa logica sequenziale delle precedenze tecnologiche (Finish-to-Start) con calcolo dello *Slack* e del percorso critico backend.
-12. **Diagramma di Gantt**: pianificazione temporale analitica al singolo giorno lavorativo distribuita sulle 12 settimane di calendario.
-13. **Risk Analysis**: registro delle minacce d'ambito valutate per probabilità e impatto, con annessi piani di mitigazione, contingenza e buffer dedicati.
-14. **Launching & Execution**: regolamentazione formale del Kick-off meeting, matrice RASCI delle responsabilità e linee operative di collaborazione.
-15. **Monitoring & Controlling**: protocolli di tracciamento metriche (Burndown, CFD) via YouTrack, gestione anomalie tramite *Issue Log* e blocco dello scope creep tramite *Scope Bank*.
+1.  [Contesto](0-contesto.md): presentazione dello scenario operativo, della community committente (HackIT) e dell'assetto delle risorse.
+2.  [SWOT Analysis](scoping/deliverables/SWOT.md): valutazione strategica dei punti di forza, debolezza interni e delle opportunità e minacce del mercato di riferimento.
+4.  [Project Overview Statement (POS)](scoping/deliverables/POS.md): sintesi esecutiva ufficiale contenente il problema cardine, il macro-obiettivo e i vincoli d'ambito.
+5.  [Market Analysis](scoping/deliverables/Market.md): analisi del posizionamento competitivo rispetto a software generici e piattaforme enterprise internazionali.
+6.  [Financial Analysis](scoping/deliverables/Financial.md): stima analitica dei costi interni del personale, dei costi cloud AWS esterni e proiezioni sul ROI atteso.
+7.  [Desideri e Bisogni](scoping/deliverables/DesideriBisogni.md): mappatura, analisi e categorizzazione delle necessità funzionali ed emozionali dei diversi utenti della piattaforma.
+8.  [Requirement Breakdown Structure (RBS)](scoping/deliverables/RBS.md): scomposizione gerarchica ad albero di tutti i requisiti funzionali e non funzionali del sistema.
+9.  [Stato del Progetto](scoping/deliverables/StatoProgetto.md): definizione analitica dello scenario *AS-IS*, *TO-BE* e catalogo delle funzionalità future *NICE-TO-HAVE*.
+10. [Work Breakdown Structure (WBS)](planning/deliverables/WBS.md): scomposizione analitica dei requisiti in compiti operativi e task tecnici elementari sulle 7 macro-aree.
+11. [Project Network Diagram (PND)](planning/deliverables/PND.md): mappa logica sequenziale delle precedenze tecnologiche (Finish-to-Start) con calcolo dello *Slack* e del percorso critico backend.
+12. [Diagramma di Gantt](planning/deliverables/Gantt.md): pianificazione temporale analitica al singolo giorno lavorativo distribuita sulle 12 settimane di calendario.
+13. [Risk Analysis](planning/deliverables/Risks.md): registro delle minacce d'ambito valutate per probabilità e impatto, con annessi piani di mitigazione, contingenza e buffer dedicati.
+14. [Launching & Execution](3-launching-execution.md): regolamentazione formale del Kick-off meeting, matrice RASCI delle responsabilità e linee operative di collaborazione.
+15. [Monitoring & Controlling](4-monitoring-controlling.md): protocolli di tracciamento metriche (Burndown, CFD) via YouTrack, gestione anomalie tramite *Issue Log* e blocco dello scope creep tramite *Scope Bank*.
 
 ## Accettazione e consegna del Progetto
 
