@@ -38,6 +38,8 @@ Durante i Daily SCRUM il team consulta la Scrum Board per verificare l'avanzamen
 
 Le attività non completate entro la fine dello sprint vengono riportate automaticamente nel backlog e rivalutate durante lo Sprint Planning successivo, mantenendo allineata la pianificazione con le priorità del progetto e preservando il margine di flessibilità disponibile per le attività di sviluppo.
 
+![Gantt schema](img/youtrack.png)
+
 ### Issue Log
 Per la gestione delle problematiche tecniche e organizzative viene utilizzato l'Issue Log integrato in YouTrack. Ogni bug, impedimento o anomalia viene registrato come issue dedicata, consentendo al team di monitorarne lo stato durante l'intero ciclo di vita del progetto.
 
