@@ -76,5 +76,5 @@ Data l'inflessibilità del budget economico e dei 3 mesi di calendario, i cambi 
 3. **Confronto straordinario**: convocazione degli stakeholder per valutare la sostenibilità strategica della modifica.
 4. **Verdetto**: il PM decreta l'esito:
     * *Approvata*: modifica inserita a backlog e Gantt aggiornato.
-    * *Parzialmente Approvata*: funzionalità ridimensionata o spostata nella lista dei futuri *Nice-To-Have*.
+    * *Parzialmente Approvata*: funzionalità ridimensionata o spostata nella lista dei futuri *NICE-TO-HAVE*.
     * *Rifiutata*: istanza respinta con motivazione formale se rischia di compromettere la stabilità del Go-Live.
