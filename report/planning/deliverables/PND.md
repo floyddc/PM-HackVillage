@@ -4,22 +4,24 @@ title: PND
 nav_exclude: true
 ---
 
-# Project Network Diagram (PND)
+# Project Network Diagram
 
-Il PND rappresenta la mappa logica e sequenziale delle interdipendenze tecnologiche tra i diversi work packages definiti nella [WBS](WBS.md). 
+Il PND rappresenta la mappa logica e sequenziale delle interdependenze tecnologiche tra i diversi work packages definiti nella [WBS](WBS.md). 
 
-Dato il vincolo temporale stringente di 3 mesi (12 settimane) e la composizione ridotta del team di sviluppo, la pianificazione reticolare adotta un approccio _API-first_. Questa scelta strategica permette di disaccoppiare i flussi di lavoro, consentendo lo sviluppo parallelo dell'interfaccia grafica (frontend) e delle logiche server-side (backend) per ciascuna macro-area della [WBS](WBS.md), azzerando i tempi morti.
+Dato il vincolo temporale stringente di 3 mesi (12 settimane per complessivi 60 giorni di calendario) e la composizione ridotta del team di sviluppo, la pianificazione reticolare adotta un approccio _API-first_. Questa scelta strategica permette di disaccoppiare i flussi di lavoro, consentendo lo sviluppo parallelo dell'interfaccia grafica (frontend) e delle logiche server-side (backend) per ciascuna macro-area, azzerando i tempi morti e ottimizzando i tempi di rilascio.
 
-## Tecniche di stima
-La stima della complessità delle attività necessarie a sviluppare l'MVP di HackVillage è stata effettuata dal team di sviluppo utilizzando la tecnica del **Planning Poker** basata sulla scala di Fibonacci modificata. Questa metodologia consente di quantificare lo sforzo relativo di ogni pacchetto di lavoro attraverso gli **Story Points (SP)**, riducendo il margine di errore grazie al confronto diretto tra i membri del team ed evitando la dominanza di singole opinioni.
+## Tecniche di stima e allocazione temporale
+La stima della complessità delle attività necessarie a sviluppare l'MVP di HackVillage è stata effettuata dal team utilizzando la tecnica del **Planning Poker** basata sulla scala di Fibonacci modificata. Questa metodologia ha permesso di quantificare lo sforzo relativo di ogni pacchetto di lavoro attraverso gli **Story Points (SP)**.
 
-Il team di sviluppo è allocato sul progetto con un focus prioritario a tempo pieno: la **velocity** stimata del team è di **38 Story Points per sprint** (pari a circa 19 SP a settimana). Il totale dello sforzo stimato per l'intero MVP è di **228 SP**, che rispecchia esattamente la capacità produttiva del team distribuita sulle 12 settimane di calendario.
+Il team di sviluppo ha una **velocity** stimata di **38 Story Points per sprint** (pari a circa 19 SP a settimana). Il totale dello sforzo stimato per l'intero MVP è di **228 SP**, il che riflette esattamente la capacità produttiva del team distribuita sulle 12 settimane di calendario.
+
+**Nota metodologica sulla conversione:** Nel calcolo della durata del progetto, gli Story Points quantificano lo *sforzo complessivo* (backend + frontend combinati), mentre la durata in giorni lavorativi inserita nel diagramma di Gantt rappresenta l'*elapsed time* (tempo effettivo di calendario lavorativo). Poiché il team lavora in parallelo su due binari separati (Frontend e Backend), la durata temporale di una fase corrisponde alla finestra temporale massima necessaria per assorbire lo sviluppo della componente più complessa (tipicamente il backend), e non alla somma matematica lineare degli sforzi.
 
 ## Work packages
 
-Per poter applicare il metodo del percorso critico, gli Story Points complessivi di ogni attività della [WBS](WBS.md) sono stati convertiti in durata temporale (giorni lavorativi effettivi), tenendo conto dell'allocazione in parallelo delle risorse frontend e backend.
+Di seguito si riporta la scomposizione temporale dei macroblocchi di lavoro. Le durate riflettono l'effettiva schedulazione delle attività sul calendario delle 12 settimane, tenendo conto delle sovrapposizioni e dei parallelismi reali applicati nel file di pianificazione.
 
-| Attività WBS | Complessità (Story Points) | Durata (giorni) | Descrizione |
+| Macro-attività | Sforzo (Story Points) | Durata | Descrizione |
 | :--- | :---: | :---: | :--- |
 | **WP-SETUP** | 13 SP | 5 gg | Configurazione ambienti cloud, cifratura password e modellazione DB. |
 | **WP-MOCK** | 8 SP | 4 gg | Definizione contratti delle rotte, permette a frontend e backend di lavorare in parallelo. |
@@ -28,11 +30,14 @@ Per poter applicare il metodo del percorso critico, gli Story Points complessivi
 | **WBS 3: Formazione Team** | 34 SP | 7 gg | Alta complessità algoritmica per gestione stati d'invito e relazioni N-N. |
 | **WBS 4: Gestione Mentor** | 21 SP | 5 gg | Sviluppo interfaccia drag-and-drop di assegnazione e bacheca di supporto. |
 | **WBS 5: Raccolta Submission** | 55 SP | 8 gg | **Punto critico (SWOT):** isolamento cartelle e gestione flussi pesanti simultanei. |
-| **WBS 6 & 7: Valutazione e Classifiche** | 42 SP | 6 gg | Sviluppo script SQL per calcolo in tempo reale delle medie ponderate dei giudici. |
+| **WBS 6: Valutazione** | 24 SP | 6 gg | Sviluppo endpoint e interfacce per la distribuzione dei progetti ai giudici e voto ponderato. |
+| **WBS 7: Classifiche** | 18 SP | 3 gg | Sviluppo query SQL per il calcolo in tempo reale dei posizionamenti (eseguito in parallelo a WBS 6). |
 | **WP-INTEGRATION** | - | 7 gg | Unione binari di sviluppo frontend e backend e allineamento con dati reali. |
 | **WP-TEST** | - | 5 gg | Simulazione carico dell'ultimo minuto sulla submission progetti prima della scadenza. |
-| **WP-DEPLOY** | - | 8 gg | Collaudo finale con stakeholder e migrazione dall'ambiente di staging alla produzione. |
-| **TOTALE** | **228 SP** | **60 gg / 12 settimane di calendario** | Non vengono considerati i 5 gg della WBS 4 poichè è un'attività lato frontend che avviene in parallelo |
+| **WP-DEPLOY** | - | 3 gg | Collaudo finale con stakeholder, bug fixing finale, UAT e rilascio in produzione. |
+| **DURATA COMPLESSIVA** | **228 SP** | **60 giorni totali** | Schedulazione su 12 settimane complessive di calendario. |
+
+*Nota: La WBS 7 (3 giorni) viene avviata in parallelo all'interno della finestra temporale della WBS 6 (6 giorni); similmente, le componenti frontend e backend delle WBS 1, 2, 3, 4 e 5 avanzano in contemporanea disaccoppiando lo sforzo.*
 
 ## Logica precedenze
 Tutti i legami di precedenza all'interno del diagramma seguono la logica **Finish-to-Start (FS)**: un'attività successiva non può iniziare se l'attività precedente non è stata completata. 
@@ -51,7 +56,7 @@ Il percorso critico del progetto (riportato in grassetto nella tabella sottostan
 
 ### Tabella di valutazione dello slack
 
-Di seguito viene riportata la matrice del calcolo dei tempi della rete, che evidenzia i margini di flessibilità delle attività non critiche.
+Di seguito viene riportata la matrice del calcolo dei tempi della rete, che evidenzia i margini di flessibilità delle attività non critiche (sviluppate principalmente sul binario Frontend o su moduli assorbiti dai parallelismi).
 
 | ID attività | Descrizione | Durata (Giorni) | Slack (margine di ritardo) | Stato attività |
 | :--- | :--- | :---: | :---: | :--- |
@@ -67,11 +72,13 @@ Di seguito viene riportata la matrice del calcolo dei tempi della rete, che evid
 | WBS 4-F | Frontend gestione mentor (4.1.3, 4.2.2) | 5 | 7 giorni | Non Critico |
 | **WBS 5-B** | Backend raccolta submission (5.1.1, 5.1.2, 5.2.1) | 8 | 0 giorni | **CRITICO** |
 | WBS 5-F | Frontend raccolta submission (5.1.3, 5.2.2) | 8 | 5 giorni | Non Critico |
-| **WBS 6/7-B**| Backend valutazione & classifiche (6.1, 6.2, 7.1) | 6 | 0 giorni | **CRITICO** |
-| WBS 6/7-F| Frontend valutazione & classifiche (6.1, 6.2, 7.2) | 6 | 6 giorni | Non Critico |
+| **WBS 6-B** | Backend valutazione (6.1.1, 6.2.1, 6.2.2, 6.3.1) | 6 | 0 giorni | **CRITICO** |
+| WBS 6-F | Frontend valutazione (6.1.2, 6.2.3, 6.3.2) | 6 | 6 giorni | Non Critico |
+| WBS 7-B | Backend motore di calcolo classifiche (7.1.1, 7.1.2) | 3 | 3 giorni | Non Critico |
+| WBS 7-F | Frontend visualizzazione classifiche (7.2.1, 7.2.2) | 3 | 3 giorni | Non Critico |
 | **WP-INT** | Code integration & allineamento (*.1.4) | 7 | 0 giorni | **CRITICO** |
 | **WP-TEST** | Stress test modulo 5 & simulazione carico | 5 | 0 giorni | **CRITICO** |
-| **WP-DEPLOY**| Bug fixing, UAT con stakeholder e lancio | 8 | 0 giorni | **CRITICO** |
+| **WP-DEPLOY**| Rilascio, UAT finale con stakeholder e lancio | 3 | 0 giorni | **CRITICO** |
 
 
 ### Nota di gestione del rischio operativo

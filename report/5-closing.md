@@ -31,24 +31,19 @@ Durante l'intero ciclo di vita di HackVillage, il team ha prodotto e strutturato
 ## Accettazione e consegna del Progetto
 
 Il trasferimento di responsabilità dell'applicativo viene strutturato secondo i seguenti passaggi operativi dopo il superamento dei collaudi UAT (User Acceptance Testing) eseguiti nel pacchetto `WP-DEPLOY`:
-1. **Verifica dei Criteri di Successo**: Il Product Owner e il Project Manager esaminano il software rispetto alle *Conditions of Satisfaction* pattuite, accertando che l'intera competizione possa essere eseguita senza tool esterni.
-2. **Firm-off e Chiusura Contabile**: Gli stakeholder firmano il verbale di accettazione finale, formalizzando il rispetto del budget di €30.000  e autorizzando la messa in produzione definitiva su cloud AWS.
-3. **Archiviazione degli Strumenti**: I branch di sviluppo parallelo di GitHub (`feature/backend-*` e `feature/frontend-*`) vengono fusi nel branch `main` e taggati come release stabile `v1.0.0-MVP`. La board di YouTrack viene pulita e le richieste inevase nello *Scope Bank* vengono congelate nel backlog per le evolutive future.
+1. **Verifica dei Criteri di Successo**: il Product Owner e il Project Manager esaminano il software rispetto alle *Conditions of Satisfaction* pattuite, accertando che l'intera competizione possa essere eseguita senza tool esterni.
+2. **Firm-off e Chiusura Contabile**: gli stakeholder firmano il verbale di accettazione finale, formalizzando il rispetto del budget di €30.000  e autorizzando la messa in produzione definitiva su cloud AWS.
+3. **Archiviazione degli Strumenti**: i branch di sviluppo parallelo di GitHub (`feature/backend-*` e `feature/frontend-*`) vengono fusi nel branch `main` e taggati come release stabile `v1.0.0-MVP`. La board di YouTrack viene pulita e le richieste inevase nello *Scope Bank* vengono congelate nel backlog per le evolutive future.
 
 ## Post-Implementation Audit
 
 Al termine del ciclo di vita del progetto, il team ha condotto un audit interno per analizzare gli scostamenti rispetto ai piani iniziali e valutare l'efficacia delle metodologie adottate:
 
-### Cosa ha funzionato con successo
+### Cosa ha funzionato
 
-*   **Efficacia dell'Approccio API-First**: La progettazione iniziale dei contratti e delle rotte fittizie in `WP-MOCK` ha blindato il parallelismo dello sviluppo. Gli sviluppatori hanno lavorato senza interdipendenze bloccanti, riducendo drasticamente il time-to-market delle prime 4 macro-aree della WBS.
-*   **Tenuta del Modello di Problem Solving**: L'applicazione rigorosa dei passi durante i Daily SCRUM ha permesso di circoscrivere tempestivamente le anomalie architetturali dell'Issue Log prima che potessero impattare la catena a scorrimento zero del percorso critico.
-*   **Sostenibilità Psico-Cognitiva**: La supervisione attiva del Mental Coach ha evitato l'insorgere di colli di bottiglia legati al burnout. L'adozione di un decision-making partecipativo ha mantenuto alto il livello di motivazione dell'unico sviluppatore per lato.
-
-### Cosa non ha funzionato e aree di miglioramento
-
-*   **Sottostima della Complessità Algoritmica**: Il modulo di raccolta delle submission ha richiesto uno sforzo in Story Points superiore alle metriche del Planning Poker. Il monitoraggio tramite il *Cumulative Flow Diagram* ha evidenziato una saturazione temporanea sul binario di backend, costringendo il PM/CTO a intervenire operativamente in supporto al codice per non consumare la riserva dei tempi.
-*   **Erosione dello Slack del Frontend**: A causa dei ritardi logici su alcune query SQL complesse ereditate dal motore di calcolo delle classifiche, lo sviluppatore frontend ha visto erodere quasi interamente il proprio margine di scorrimento (*Slack*) fluttuante, accumulando un forte carico di lavoro concentrato interamente nella settimana di convergenza di `WP-INTEGRATION`.
+*   **Efficacia dell'Approccio API-First**: la progettazione iniziale dei contratti e delle rotte fittizie in `WP-MOCK` ha blindato il parallelismo dello sviluppo. Gli sviluppatori hanno lavorato senza interdipendenze bloccanti, riducendo drasticamente il time-to-market delle prime 4 macro-aree della WBS.
+*   **Tenuta del Modello di Problem Solving**: l'applicazione rigorosa dei passi durante i Daily SCRUM ha permesso di circoscrivere tempestivamente le anomalie architetturali dell'Issue Log prima che potessero impattare la catena a scorrimento zero del percorso critico.
+*   **Sostenibilità Psico-Cognitiva**: la supervisione attiva del Mental Coach ha evitato l'insorgere di colli di bottiglia legati al burnout. L'adozione di un decision-making partecipativo ha mantenuto alto il livello di motivazione dell'unico sviluppatore per lato.
 
 ### Lezioni apprese per il futuro
 1. Per progetti futuri con team ridotti all'osso, i pacchetti legati all'interazione con file system cloud e storage pesanti non devono essere stimati come singoli blocchi ma devono essere ulteriormente atomizzati in sotto-task all'interno della WBS.
