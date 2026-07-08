@@ -8,7 +8,7 @@ nav_exclude: true
 
 Il PND rappresenta la mappa logica e sequenziale delle interdipendenze tecnologiche tra i diversi work packages definiti nella [WBS](WBS.md). 
 
-Dato il vincolo temporale stringente di 3 mesi (12 settimane) e la composizione ridotta del team di sviluppo, la pianificazione reticolare adotta un approccio _API-first_. Questa scelta strategica permette di disaccoppiare i flussi di lavoro, consentendo lo sviluppo parallelo dell'interfaccia grafica (frontend) e delle logiche server-side (backend) per ciascuna macro-area della [WBS](WBS.md), azzerando i tempi morti.
+Dato il vincolo temporale stringente di 3 mesi (12 settimane) e la composizione ridotta del team di sviluppo, la pianificazione reticolare adotta un approccio _API-first_. Questa scelta strategica permette di disaccoppiare i flussi di lavoro, consentendo lo sviluppo parallelo dell'interfaccia grafica (frontend) e delle logiche server-side (backend) per ciascuna macro-area della **WBS**, azzerando i tempi morti.
 
 ## Tecniche di stima
 La stima della complessità delle attività necessarie a sviluppare l'MVP di HackVillage è stata effettuata dal team di sviluppo utilizzando la tecnica del **Planning Poker** basata sulla scala di Fibonacci modificata. Questa metodologia consente di quantificare lo sforzo relativo di ogni pacchetto di lavoro attraverso gli **Story Points (SP)**, riducendo il margine di errore grazie al confronto diretto tra i membri del team ed evitando la dominanza di singole opinioni.
@@ -17,7 +17,7 @@ Il team di sviluppo è allocato sul progetto con un focus prioritario a tempo pi
 
 ## Work packages
 
-Per poter applicare il metodo del percorso critico, gli Story Points complessivi di ogni attività della [WBS](WBS.md) sono stati convertiti in durata temporale (giorni lavorativi effettivi), tenendo conto dell'allocazione in parallelo delle risorse frontend e backend.
+Per poter applicare il metodo del percorso critico, gli Story Points complessivi di ogni attività della **WBS** sono stati convertiti in durata temporale (giorni lavorativi effettivi), tenendo conto dell'allocazione in parallelo delle risorse frontend e backend.
 
 | Attività WBS | Complessità (Story Points) | Durata (giorni) | Descrizione |
 | :--- | :---: | :---: | :--- |

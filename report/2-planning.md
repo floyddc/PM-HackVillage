@@ -27,8 +27,8 @@ La presenza di ogni singolo partecipante è strettamente necessaria per blindare
 | --- | --- | --- |
 | **Diego Colì** | Product Owner / CEO | Garantisce l'allineamento con gli obiettivi di HackIT Community e valida le priorità di business durante la scomposizione delle attività. |
 | **Gabriele Arcese** | Project Manager / CTO | Gestisce e conduce il JPPS senza facilitatori esterni. Cura la transizione logica dai requisiti alle tempistiche e presidia l'architettura tecnica del software. |
-| **Daniele Merighi** | Backend Developer (Server-side) | Stima lo sforzo del database, delle logiche di business e per definisce la fattibilità tecnica dei pacchetti di lavoro. |
-| **Daniel Meco** | Frontend Developer (Client-side) | Quantifica i tempi di sviluppo delle interfacce e garantisce che la UX sia allineata con i tempi di rilascio. |
+| **Daniele Merighi** | Backend Developer | Stima lo sforzo del database, delle logiche di business e per definisce la fattibilità tecnica dei pacchetti di lavoro. |
+| **Daniel Meco** | Frontend Developer | Quantifica i tempi di sviluppo delle interfacce e garantisce che la UX sia allineata con i tempi di rilascio. |
 | **Davide Dionisi** | Mental Coach | Valuta la sostenibilità psicologica del piano, prevenendo il burnout derivante dal carico di lavoro concentrato su soli due developer. |
 
 ## Meeting #1 - Dai requisiti alle attività
