@@ -5,11 +5,9 @@ nav_order: 5
 ---
 
 # Monitoring & Controlling
-
 L'obiettivo di questa fase è controllare e monitorare sistematicamente l’avanzamento delle attività per verificare che i tempi, i costi e gli obiettivi dell'MVP di HackVillage siano rigorosamente rispettati. Attraverso il monitoraggio è possibile individuare tempestivamente eventuali scostamenti o criticità rispetto al percorso critico stabilito, intervenendo con azioni correttive immediate per garantire la corretta realizzazione del progetto secondo quanto pianificato nella baseline.
 
 ## Reporting
-
 Il progetto adotta il framework SCRUM, che assicura un monitoraggio continuo attraverso Sprint Planning, Daily SCRUM, Sprint Review e Sprint Retrospective. La suddivisione dello sviluppo in sprint incrementali permette di verificare costantemente l'avanzamento delle attività e il raggiungimento delle milestone previste.
 
 ## Monitoring quotidiano - YouTrack
