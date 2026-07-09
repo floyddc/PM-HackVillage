@@ -24,4 +24,4 @@ nav_exclude: true
 * **Compliance e sicurezza**: protezione dei dati personali in conformità con la normativa GDPR.
 * **Stabilità sotto carico**: architettura resiliente in grado di supportare picchi di traffico simultaneo, specialmente durante le submission dei progetti.
 
-# [⬅️ Scoping](/report/1-scoping.md)
+# [⬅️ Scoping](../../1-scoping.md)

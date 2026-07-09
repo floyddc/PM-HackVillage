@@ -11,4 +11,4 @@ Tale diagramma rappresenta in modo chiaro e sintetico la pianificazione temporal
 
 ![Gantt schema](../../img/Gantt.png)
 
-# [⬅️ Planning](/report/2-planning.md)
+# [⬅️ Planning](../../2-planning.md)

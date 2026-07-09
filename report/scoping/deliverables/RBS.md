@@ -42,4 +42,4 @@ L'RBS definisce l'architettura funzionale di HackVillage, scomponendo il sistema
 
 ![RBS schema](../../img/RBS.jpg)
 
-# [⬅️ Scoping](/report/1-scoping.md)
+# [⬅️ Scoping](../../1-scoping.md)
