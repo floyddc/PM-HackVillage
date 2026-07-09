@@ -38,4 +38,4 @@ Il successo del progetto sarà misurato in base a indicatori quantitativi e qual
 
 Vedere [financial analysis](../../scoping/deliverables/Financial.md) per ulteriori dettagli.
 
-# [⬅️ Scoping](/report/1-scoping.md)
+# [⬅️ Scoping](../../1-scoping.md)

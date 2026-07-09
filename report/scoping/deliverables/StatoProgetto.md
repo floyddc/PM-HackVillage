@@ -27,4 +27,4 @@ Funzionalità opzionali pianificate per cicli di rilascio successivi al completa
 * **Integrazione con API esterne**: ulteriori integrazioni con tool di terze parti per analisi avanzate delle performance.
 * **SaaS commerciale**: evoluzione della piattaforma in una soluzione licenziabile per altre organizzazioni esterne alla community.
 
-# [⬅️ Scoping](/report/1-scoping.md)
+# [⬅️ Scoping](../../1-scoping.md)

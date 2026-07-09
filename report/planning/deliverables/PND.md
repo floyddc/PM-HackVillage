@@ -86,4 +86,4 @@ Lo sviluppatore frontend (Daniel Meco) gode di un margine di scorrimento fluttua
 
 ![PND schema](../../img/PND.drawio.png)
 
-# [⬅️ Planning](/report/2-planning.md)
+# [⬅️ Planning](../../2-planning.md)
