@@ -15,7 +15,7 @@ La stima della complessità delle attività necessarie a sviluppare l'MVP di Hac
 
 Il team di sviluppo ha una **velocity** stimata di **38 Story Points per sprint** (pari a circa 19 SP a settimana). Il totale dello sforzo stimato per l'intero MVP è di **228 SP**, il che riflette esattamente la capacità produttiva del team distribuita sulle 12 settimane di calendario.
 
-**Nota metodologica sulla conversione:** Nel calcolo della durata del progetto, gli Story Points quantificano lo *sforzo complessivo* (backend + frontend combinati), mentre la durata in giorni lavorativi inserita nel diagramma di Gantt rappresenta l'*elapsed time* (tempo effettivo di calendario lavorativo). Poiché il team lavora in parallelo su due binari separati (Frontend e Backend), la durata temporale di una fase corrisponde alla finestra temporale massima necessaria per assorbire lo sviluppo della componente più complessa (tipicamente il backend), e non alla somma matematica lineare degli sforzi.
+**Nota**: nel calcolo della durata del progetto, gli Story Points quantificano lo *sforzo complessivo* (backend + frontend combinati), mentre la durata in giorni lavorativi inserita nel diagramma di Gantt rappresenta l'*elapsed time* (tempo effettivo di calendario lavorativo). Poiché il team lavora in parallelo su due binari separati (Frontend e Backend), la durata temporale di una fase corrisponde alla finestra temporale massima necessaria per assorbire lo sviluppo della componente più complessa (tipicamente il backend), e non alla somma matematica lineare degli sforzi.
 
 ## Work packages
 
@@ -37,7 +37,7 @@ Di seguito si riporta la scomposizione temporale dei macroblocchi di lavoro. Le 
 | **WP-DEPLOY** | - | 3 gg | Collaudo finale con stakeholder, bug fixing finale, UAT e rilascio in produzione. |
 | **DURATA COMPLESSIVA** | **228 SP** | **60 giorni totali** | Schedulazione su 12 settimane complessive di calendario. |
 
-*Nota: La WBS 7 (3 giorni) viene avviata in parallelo all'interno della finestra temporale della WBS 6 (6 giorni); similmente, le componenti frontend e backend delle WBS 1, 2, 3, 4 e 5 avanzano in contemporanea disaccoppiando lo sforzo.*
+**Nota**: la WBS 7 (3 gg) viene avviata in parallelo all'interno della finestra temporale della WBS 6 (6 gg). Similmente, le componenti frontend e backend delle altre WBS avanzano in contemporanea disaccoppiando lo sforzo.*
 
 ## Logica precedenze
 Tutti i legami di precedenza all'interno del diagramma seguono la logica **Finish-to-Start (FS)**: un'attività successiva non può iniziare se l'attività precedente non è stata completata. 
