@@ -15,7 +15,7 @@ L'esecuzione del progetto ha inizio formale con il **Kick-off Meeting**, un inco
 L'ordine del giorno ha seguito i seguenti punti chiave:
 1. **Visione del committente**: allineamento sugli obiettivi di centralizzazione delle 7 macro-aree operative.
 2. **Roadmap di progetto**: analisi del percorso critico guidato dallo sviluppo backend e approvazione dei vincoli temporali.
-3. **Presentazione del team**: definizione dei flussi operativi tra le 5 risorse assegnate all'iniziativa.
+3. **Presentazione del team**: definizione dei flussi operativi tra le 5 risorse umane assegnate all'iniziativa.
 4. **Metodologia Agile**: introduzione del framework SCRUM adattato alla forte parallelizzazione garantita dall'approccio *API-first*.
 5. **Regole di collaborazione**: approvazione dei protocolli interni per la gestione delle emergenze e delle modifiche tecniche.
 
@@ -61,7 +61,7 @@ Per evitare che imprevisti tecnici o bug bloccanti sul percorso critico rallenti
 5. **Piano d'azione**: allocazione immediata del fix all'interno del codice per ripristinare il flusso di sviluppo.
 
 ### 2. Decision making
-Le scelte relative all'architettura software o alle priorità operative non vengono prese in modo gerarchico. Ogni membro del team partecipa attivamente esprimendo il proprio parere tecnico. Il Mental Coach interviene specificamente per valutare l'impatto cognitivo ed evitare fenomeni di burnout derivanti da un carico lavorativo eccessivo concentrato su soli due programmatori. Tutte le decisioni vincolanti vengono registrate dal PM a tutela dei criteri di successo qualitativi.
+Le scelte relative all'architettura software o alle priorità operative non vengono prese in modo gerarchico. Ogni membro del team partecipa attivamente esprimendo il proprio parere tecnico.  Tutte le decisioni vincolanti vengono registrate dal PM a tutela dei criteri di successo qualitativi.
 
 ### 3. Team meetings
 Lo sviluppo segue una programmazione incrementale scandita da sprint settimanali per mantenere reattivo il ciclo di feedback:

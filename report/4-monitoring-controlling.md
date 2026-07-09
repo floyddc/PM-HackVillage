@@ -16,7 +16,7 @@ Il progetto adotta il framework SCRUM, che assicura un monitoraggio continuo att
 Per la gestione operativa e il monitoraggio quotidiano viene utilizzato YouTrack, configurato con una Scrum Board dedicata al progetto HackVillage. Ogni attività derivata dalla **WBS** viene registrata come ticket e associata allo sprint di riferimento. Per ciascun ticket vengono tracciate informazioni quali:
 
 - Priorità.
-- Stato di avanzamento (*To Do, In Progress, In Review, Done*).
+- Stato di avanzamento (*Da fare, In Corso, Completato*).
 - Story Points, stimati sulla base della velocity del team (38 SP per sprint).
 - Assegnatario.
 - Componente di sviluppo (backend o frontend).
@@ -51,7 +51,7 @@ Per ogni issue vengono registrate le seguenti informazioni:
 *   **Impatto sul progetto**: valutazione degli effetti sulla timeline, sulle milestone o sull'eventuale minaccia di slittamento del percorso critico di backend.
 *   **Assegnatario**: assegnazione della responsabilità della risoluzione.
 *   **Azione intrapresa**: piano d'azione correttivo e dettagliato volto a risolvere l'anomalia.
-*   **Stato**: condizione del ticket (*Aperto, In Corso, In Verifica, Chiuso*).
+*   **Stato**: condizione del ticket (*Aperto, In Corso, Chiuso*).
 *   **Esito**: risoluzione formale e impatto finale sulla baseline dell'MVP.
 *   **Data di chiusura**: conclusione della risoluzione.
 
