@@ -2,6 +2,7 @@
 Report per l'esame di Project Management. Navigare nell'indice per leggerne i dettagli.
 
 ## Team
+
 - Gabriele Arcese (gabriele.arcese@studio.unibo.it)
 - Diego Colì (diego.coli@studio.unibo.it)
 
