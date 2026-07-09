@@ -39,7 +39,7 @@ In questo incontro spiccatamente operativo, i developer (Daniele Merighi e Danie
 - [Desideri e bisogni](scoping/deliverables/DesideriBisogni.md): documentazione dettagliata delle necessità degli utenti, al fine di per comprendere a fondo le priorità dei fruitori della piattaforma (organizzatori, mentor, partecipanti).
 - [RBS - Requirement Breakdown Structure](scoping/deliverables/RBS.md): scomposizione gerarchica ad albero di tutti i requisiti del sistema (funzionali e non), che definisce nel dettaglio l'architettura delle funzionalità necessarie.
 
-**Nota**: si è scelto arbitrariamente di effettuare una [SWOT analysis](scoping/deliverables/SWOT.md) prima della definizione di [desideri e bisogni](scoping/deliverables/DesideriBisogni.md) per evitare di promettere funzionalità irrealizzabili e scongiurare false aspettative nel committente fin dal primo momento. (richieste che poi andrebbero cestinate nel momento in cui si dovessero scontrare con la realtà finanziaria/strategica).
+**Nota**: si è scelto arbitrariamente di effettuare una **SWOT Analysis** prima della definizione di **Desideri e Bisogni** per evitare di promettere funzionalità irrealizzabili e scongiurare false aspettative nel committente fin dal primo momento. (richieste che poi andrebbero cestinate nel momento in cui si dovessero scontrare con la realtà finanziaria/strategica).
 
 ## Meeting #3 - Validazione architetturare e avanzamento
 
