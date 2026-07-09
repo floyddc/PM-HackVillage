@@ -47,6 +47,7 @@ Al termine del ciclo di vita del progetto, il team ha condotto un audit interno 
 *   **Sostenibilità Psico-Cognitiva**: la supervisione attiva del Mental Coach ha evitato l'insorgere di colli di bottiglia legati al burnout. L'adozione di un decision-making partecipativo ha mantenuto alto il livello di motivazione dell'unico sviluppatore per lato.
 
 ### Lezioni apprese per il futuro
+
 1. Per progetti futuri con team ridotti all'osso, i pacchetti legati all'interazione con file system cloud e storage pesanti non devono essere stimati come singoli blocchi ma devono essere ulteriormente atomizzati in sotto-task all'interno della WBS.
 2. Lo *Scope Bank* si è rivelato uno strumento indispensabile per proteggere la baseline dai desideri estranei degli stakeholder, salvaguardando il Go-Live entro il limite invalicabile dei 3 mesi.
 
