@@ -8,7 +8,7 @@ nav_exclude: true
 
 Il PND rappresenta la mappa logica e sequenziale delle interdependenze tecnologiche tra i diversi work packages definiti nella [WBS](WBS.md). 
 
-Dato il vincolo temporale stringente di 3 mesi (12 settimane per complessivi 60 giorni di calendario) e la composizione ridotta del team di sviluppo, la pianificazione reticolare adotta un approccio _API-first_. Questa scelta strategica permette di disaccoppiare i flussi di lavoro, consentendo lo sviluppo parallelo dell'interfaccia grafica (frontend) e delle logiche server-side (backend) per ciascuna macro-area, azzerando i tempi morti e ottimizzando i tempi di rilascio.
+Dato il vincolo temporale stringente di 3 mesi (12 settimane, pari a circa 60 giorni lavorativi) e la composizione ridotta del team di sviluppo, la pianificazione reticolare adotta un approccio _API-first_. Questa scelta strategica permette di disaccoppiare i flussi di lavoro, consentendo lo sviluppo parallelo dell'interfaccia grafica (frontend) e delle logiche server-side (backend) per ciascuna macro-area, azzerando i tempi morti e ottimizzando i tempi di rilascio.
 
 ## Tecniche di stima e allocazione temporale
 La stima della complessità delle attività necessarie a sviluppare l'MVP di HackVillage è stata effettuata dal team utilizzando la tecnica del **Planning Poker** basata sulla scala di Fibonacci modificata. Questa metodologia ha permesso di quantificare lo sforzo relativo di ogni pacchetto di lavoro attraverso gli **Story Points (SP)**.
@@ -37,7 +37,7 @@ Di seguito si riporta la scomposizione temporale dei macroblocchi di lavoro. Le 
 | **WP-DEPLOY** | - | 3 gg | Collaudo finale con stakeholder, bug fixing finale, UAT e rilascio in produzione. |
 | **DURATA COMPLESSIVA** | **228 SP** | **60 giorni totali** | Schedulazione su 12 settimane complessive di calendario. |
 
-**Nota**: la WBS 7 (3 gg) viene avviata in parallelo all'interno della finestra temporale della WBS 6 (6 gg). Similmente, le componenti frontend e backend delle altre WBS avanzano in contemporanea disaccoppiando lo sforzo.*
+**Nota**: la WBS 7 (3 gg) viene avviata in parallelo all'interno della finestra temporale della WBS 6 (6 gg). Similmente, le componenti frontend e backend delle altre WBS avanzano in contemporanea disaccoppiando lo sforzo.
 
 ## Logica precedenze
 Tutti i legami di precedenza all'interno del diagramma seguono la logica **Finish-to-Start (FS)**: un'attività successiva non può iniziare se l'attività precedente non è stata completata. 
@@ -50,9 +50,9 @@ I due binari convergono tassativamente al nodo **WP-INTEGRATION**, dove le inter
 
 ## Percorso critico
 
-Applicando l'algoritmo del metodo del percorso critico (**CPM**), ovvero effettuando i passaggi in avanti (*Forward Pass*) e all'indietro (*Backward Pass*) sulla rete delle attività, il team ha identificato la catena a "scorrimento zero" (Slack = 0).
+Applicando l'algoritmo del metodo del percorso critico (**CPM**), ovvero effettuando i passaggi in avanti (*Forward Pass*) e all'indietro (*Backward Pass*) sulla rete delle attività, il team ha identificato la catena a "scorrimento zero" (Slack pari a 0).
 
-Il percorso critico del progetto (riportato in grassetto nella tabella sottostante) è interamente guidato e vincolato dallo **sviluppo delle componenti di backend**, in quanto presentano una complessità strutturale, algoritmica e di sicurezza intrinsecamente maggiore rispetto alla controparte client-side.
+Il percorso critico del progetto (riportato in grassetto nella tabella sottostante) è in larga parte guidato e vincolato dallo **sviluppo delle componenti di backend**, in quanto presentano una complessità strutturale, algoritmica e di sicurezza intrinsecamente maggiore rispetto alla controparte client-side.
 
 ### Tabella di valutazione dello slack
 
@@ -76,7 +76,7 @@ Di seguito viene riportata la matrice del calcolo dei tempi della rete, che evid
 | WBS 6-F | Frontend valutazione (6.1.2, 6.2.3, 6.3.2) | 6 | 6 giorni | Non Critico |
 | WBS 7-B | Backend motore di calcolo classifiche (7.1.1, 7.1.2) | 3 | 3 giorni | Non Critico |
 | WBS 7-F | Frontend visualizzazione classifiche (7.2.1, 7.2.2) | 3 | 3 giorni | Non Critico |
-| **WP-INT** | Code integration & allineamento (*.1.4) | 7 | 0 giorni | **CRITICO** |
+| **WP-INT** | Code integration & allineamento (.1.4) | 7 | 0 giorni | **CRITICO** |
 | **WP-TEST** | Stress test modulo 5 & simulazione carico | 5 | 0 giorni | **CRITICO** |
 | **WP-DEPLOY**| Rilascio, UAT finale con stakeholder e lancio | 3 | 0 giorni | **CRITICO** |
 
