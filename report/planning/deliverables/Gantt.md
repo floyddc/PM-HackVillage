@@ -10,3 +10,5 @@ Il diagramma di Gantt è stato realizzato a partire dal [PND](PND.md) definito i
 Tale diagramma rappresenta in modo chiaro e sintetico la pianificazione temporale del progetto. Attraverso il Gantt è stato possibile inoltre visualizzare i percorsi critici, che potrebbero portare a futuri rallentamenti.
 
 ![Gantt schema](../../img/Gantt.png)
+
+# [⬅️ Planning](/report/2-planning.md)

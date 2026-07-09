@@ -27,3 +27,5 @@ Questa tipologia di analisi permette di mappare i fattori interni ed esterni per
 ### Threats
 - Competitor strutturati e consolidati: esistono già piattaforme internazionali con forti capitali alle spalle.
 - Picchi di carico critici: gli hackathon generano un traffico "a impulsi" (centinaia di utenti che caricano progetti nello stesso identico minuto alla scadenza). Un crash del sistema durante la sottomissione distruggerebbe la reputazione della piattaforma.
+
+# [⬅️ Scoping](/report/1-scoping.md)

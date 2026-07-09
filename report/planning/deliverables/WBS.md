@@ -88,3 +88,5 @@ La Work Breakdown Structure rappresenta la scomposizione analitica delle attivit
 *   **7.2. Visualizzazione Classifica**
     *   7.2.1. Creazione della pagina pubblica o riservata di visualizzazione dei risultati finali
     *   7.2.2. Integrazione dei dati della classifica con rendering grafici dei posizionamenti
+
+# [⬅️ Planning](/report/2-planning.md)

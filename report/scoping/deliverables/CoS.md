@@ -12,3 +12,5 @@ Queste condizioni, stabilite dai rappresentanti degli stakeholder (Marco Costant
 - **Indipendenza dai tool esterni**: la piattaforma deve permettere di completare un hackathon dall'inizio alla fine, senza dover ricorrere a strumenti esterni.
 - **Scalabilità e performance**: il sistema deve garantire alte performance e stabilità durante la finestra critica di submission dei progetti. L'architettura deve reggere il caricamento simultaneo di file pesanti da parte di tutti i team iscritti senza subire rallentamenti.
 - **User experience organizzativa**: la formazione dei team e l'assegnazione dei mentor devono essere flessibili e richiedere al massimo pochi click da parte dell'organizzatore, riducendo drasticamente il tempo di coordinamento rispetto alla vecchia gestione manuale.
+
+# [⬅️ Scoping](/report/1-scoping.md)

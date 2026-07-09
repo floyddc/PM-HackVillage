@@ -28,3 +28,5 @@ Si posiziona nello spazio intermedio come soluzione verticale all-in-one ed econ
    [Software generici]    <--->    [ HackVillage ]   <--->  [Piattaforme enterprise]
 (Disorganizzati, gratis)       (Centralizzato, SaaS)          (Rigide, costosi)
  ```
+
+# [⬅️ Scoping](/report/1-scoping.md)

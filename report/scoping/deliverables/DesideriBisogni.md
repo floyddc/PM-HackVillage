@@ -23,3 +23,5 @@ nav_exclude: true
 * **Calcolo automatizzato delle classifiche**: generazione in tempo reale delle classifiche finali sulla base dei voti inseriti dai giudici, eliminando i calcoli manuali.
 * **Compliance e sicurezza**: protezione dei dati personali in conformità con la normativa GDPR.
 * **Stabilità sotto carico**: architettura resiliente in grado di supportare picchi di traffico simultaneo, specialmente durante le submission dei progetti.
+
+# [⬅️ Scoping](/report/1-scoping.md)

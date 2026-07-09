@@ -65,3 +65,5 @@ Il ritorno economico sull'investimento di €30.000 si svilupperà nel medio-lun
 ### Ritorni indiretti
 - Drastica riduzione delle ore/uomo, grazie all'automazione dei flussi critici di ogni evento. Si stimano circa 60 ore uomo risparmiate dagli organizzatori per ogni singolo hackathon.
 - Aumento della soddisfazione di partecipanti e mentor, grazie ad un'esperienza fluida e senza attriti digitali.
+
+# [⬅️ Scoping](/report/1-scoping.md)

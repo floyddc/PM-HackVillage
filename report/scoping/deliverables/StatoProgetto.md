@@ -26,3 +26,5 @@ Funzionalità opzionali pianificate per cicli di rilascio successivi al completa
 * **Notifiche avanzate**: implementazione di avvisi automatici tramite SMS o canali di messaggistica istantanea (es: Telegram).
 * **Integrazione con API esterne**: ulteriori integrazioni con tool di terze parti per analisi avanzate delle performance.
 * **SaaS commerciale**: evoluzione della piattaforma in una soluzione licenziabile per altre organizzazioni esterne alla community.
+
+# [⬅️ Scoping](/report/1-scoping.md)

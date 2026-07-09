@@ -61,3 +61,6 @@ L'Issue Log viene consultato quotidianamente durante i Daily SCRUM e riesaminato
 Le richieste di nuove funzionalità non comprese nello scope iniziale dell'MVP vengono registrate in uno Scope Bank gestito tramite un backlog dedicato in YouTrack. Ogni richiesta viene documentata con una descrizione, una valutazione preliminare dell'impatto e una priorità, senza influenzare la pianificazione dello sprint in corso.
 
 Lo Scope Bank viene riesaminato al termine di ogni sprint e le nuove funzionalità vengono eventualmente inserite nel Product Backlog soltanto se risultano compatibili con i vincoli di tempo, costo e qualità definiti nella baseline del progetto. Questo approccio consente di gestire le richieste di cambiamento senza compromettere gli obiettivi dell'MVP.
+
+# [⬆️ Launching & Execution](3-launching-execution.md)
+# [⬇️ Closing](5-closing.md)

@@ -76,3 +76,6 @@ Nell'ultimo meeting il team ha discusso su come gestire le potenziali criticità
 ### Output
 - [Risk analysis](planning/deliverables/Risks.md) approvata.
 - Firma della baseline operativa.
+
+# [⬆️ Scoping](1-scoping.md)
+# [⬇️ Launching & Execution](3-launching-execution.md)

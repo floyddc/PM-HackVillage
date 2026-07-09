@@ -37,3 +37,5 @@ Il successo del progetto sarà misurato in base a indicatori quantitativi e qual
 - Si assume la possibilità di configurare servizi Cloud di terze parti con scalabilità automatica per gestire i picchi di traffico.
 
 Vedere [financial analysis](../../scoping/deliverables/Financial.md) per ulteriori dettagli.
+
+# [⬅️ Scoping](/report/1-scoping.md)

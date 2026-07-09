@@ -42,4 +42,5 @@ La fase di scoping ha l'obiettivo di chiarire fin dall'inizio cosa realizzerà i
 
 Tale fase è stata suddivisa in tre meeting principali, ognuno con obiettivi specifici, al fine di costruire una base solida e coerente per lo sviluppo del progetto.
 
-
+# [⬆️ Pagina iniziale](index.md)
+# [⬇️ Scoping](1-scoping.md)

@@ -56,3 +56,6 @@ Sotto la guida del CTO (Gabriele Arcese), sono state approvate le scelte archite
 - **PMLC adottato**: si è scelto un Project Management Life Cycle adattivo/iterativo, individuando nel framework SCRUM la metodologia ideale per la conduzione dei lavori. La scelta di tale framework, inserito in una pianificazione rigorosa, risponde a una duplice necessità emersa durante la fase di scoping:
   - _Stabilità dei vincoli_: i macro-obiettivi e i vincoli finanziari e temporali rimangono rigidi e stabili.
   - _Flessibilità del prodotto_: sebbene il perimetro finanziario sia blindato, le singole funzionalità software necessitano di flessibilità. Trattandosi di un ecosistema che centralizza 7 fasi operative complesse, il team di sviluppo ha bisogno di rilasciare il software in modo incrementale per testarne l'usabilità sul campo e correggere l'implementazione senza stravolgere il piano.
+
+# [⬆️ Contesto](0-contesto.md)
+# [⬇️ Planning](2-planning.md)

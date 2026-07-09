@@ -41,3 +41,5 @@ L'RBS definisce l'architettura funzionale di HackVillage, scomponendo il sistema
 * **Visualizzazione classifica**: pubblicazione in tempo reale della classifica pubblica al termine della valutazione.
 
 ![RBS schema](../../img/RBS.jpg)
+
+# [⬅️ Scoping](/report/1-scoping.md)

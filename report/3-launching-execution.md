@@ -78,3 +78,6 @@ Data l'inflessibilità del budget economico e dei 3 mesi di calendario, i cambi 
     * *Approvata*: modifica inserita a backlog e Gantt aggiornato.
     * *Parzialmente Approvata*: funzionalità ridimensionata o spostata nella lista dei futuri *NICE-TO-HAVE*.
     * *Rifiutata*: istanza respinta con motivazione formale se rischia di compromettere la stabilità del Go-Live.
+
+# [⬆️ Planning](2-planning.md)
+# [⬇️ Monitoring & Controlling](4-monitoring-controlling.md)
