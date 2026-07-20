@@ -8,7 +8,7 @@ nav_order: 2
 
 La definizione dei requisiti, del perimetro operativo e delle linee guida strategiche di HackVillage è stata strutturata attraverso una serie di tre meeting principali. Questa fase ha visto la collaborazione sinergica e attiva del team di sviluppo, del management e dei rappresentanti del committente (HackIT Community).
 
-L'approccio iterativo e incrementale adottato ha permesso di allineare progressivamente la visione di business alle specifiche tecniche e architetturali, riducendo al minimo le ambiguità e strutturando un percorso di sviluppo chiaro, tracciabile e orientato al rilascio di valore reale per la community.
+L'approccio iterativo adottato ha permesso di allineare progressivamente la visione di business alle specifiche tecniche e architetturali, riducendo al minimo le ambiguità e strutturando un percorso di sviluppo chiaro, tracciabile e orientato al rilascio di valore reale per la community.
 
 ## Meeting #1 - Identificazione problema e allineamento strategico
 
@@ -51,7 +51,7 @@ In questo incontro spiccatamente operativo, i developer (Daniele Merighi e Danie
 Sotto la guida del CTO (Gabriele Arcese), il team ha validato le principali scelte architetturali (database, stack frontend/backend e organizzazione dell'infrastruttura) per garantire stabilità e scalabilità del sistema. Contestualmente sono stati riesaminati i requisiti emersi durante la fase di scoping al fine di individuare il Project Management Life Cycle più idoneo.
 
 ### Output
-- **PMLC adottato**: è stato selezionato un Project Management Life Cycle adattivo/iterativo, individuando nel framework SCRUM la metodologia più adatta alla conduzione del progetto. La scelta deriva dal fatto che i macro-obiettivi risultano definiti e stabili, mentre i requisiti di dettaglio potranno evolvere progressivamente durante lo sviluppo grazie ai feedback raccolti dagli stakeholder.
+- **PMLC adottato**: è stato selezionato un Project Management Life Cycle iterativo, individuando nel framework SCRUM la metodologia più adatta alla conduzione del progetto. La scelta deriva dal fatto che i macro-obiettivi risultano definiti e stabili, mentre i requisiti di dettaglio potranno evolvere progressivamente durante lo sviluppo grazie ai feedback raccolti dagli stakeholder.
 - [POS - Project Overview Statement](scoping/deliverables/POS.md): documento di sintesi del progetto che formalizza il problema, il goal, gli obiettivi, i criteri di successo, i principali rischi e i vincoli del progetto. Include inoltre:
   - [Market analysis](scoping/deliverables/Market.md).
   - [Financial analysis](scoping/deliverables/Financial.md).

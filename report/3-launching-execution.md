@@ -64,10 +64,11 @@ Per evitare che imprevisti tecnici o bug bloccanti sul percorso critico rallenti
 Le scelte relative all'architettura software o alle priorità operative non vengono prese in modo gerarchico. Ogni membro del team partecipa attivamente esprimendo il proprio parere tecnico.  Tutte le decisioni vincolanti vengono registrate dal PM a tutela dei criteri di successo qualitativi.
 
 ### 3. Team meetings
-Lo sviluppo segue una programmazione incrementale scandita da sprint settimanali per mantenere reattivo il ciclo di feedback:
+Lo sviluppo segue una pianificazione iterativa articolata in sprint settimanali secondo il framework SCRUM. Ogni sprint produce un incremento funzionante del software, validato internamente e presentato agli stakeholder durante la Sprint Review per raccogliere feedback e affinare il Product Backlog. Il rilascio in produzione dell'MVP avviene invece al termine del progetto, dopo le fasi di integrazione, testing e collaudo.
 * **Daily SCRUM**: sessioni di allineamento di 10-15 minuti ogni mattina. Si analizzano i progressi sul codice e si verifica la tenuta dei contratti API finti per non bloccare il frontend. I problemi complessi emersi in questa sede vengono rimandati a riunioni tecniche pomeridiane ad-hoc per non frammentare il focus della giornata.
-* **Sprint planning**: definizione degli obiettivi all'inizio di ogni sprint e sblocco dei task dal product backlog in base alle priorità fissate.
-* **Sprint review**: si svolge alla fine di ogni sprint per presentare i risultati ottenuti agli stakeholder e raccogliere feedback utili per i cicli successivi.
+* **Sprint Planning**: definizione degli obiettivi all'inizio di ogni sprint e sblocco dei task dal product backlog in base alle priorità fissate.
+* **Sprint Review**: si svolge alla fine di ogni sprint per presentare i risultati ottenuti agli stakeholder e raccogliere feedback utili per i cicli successivi.
+* **Sprint Retrospective**: concluso lo Sprint Review, il team analizza il processo di lavoro, individua criticità organizzative o tecniche e concorda azioni di miglioramento continuo da applicare allo sprint successivo.
 
 ### 4. Gestione dei cambiamenti di scope 
 Data l'inflessibilità del budget economico e dei 3 mesi di calendario, i cambi di perimetro seguono un iter rigido:
